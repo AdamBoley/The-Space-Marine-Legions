@@ -1,0 +1,22 @@
+
+.header {
+    text-align: center;
+
+}
+
+.nav {
+    float: right;
+    
+}
+
+
+
+
+
+.legion-article {
+    background: blue;
+    width: 80%;
+    height: 800px;
+    margin: 20px;
+}
+
