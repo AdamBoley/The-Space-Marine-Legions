@@ -16,17 +16,25 @@ As the Great Crusade, as this campaign of galatic conquest was known, drew to a 
 
 The Siege of Terra, as the final battle was called, was titanic in scale. Casualties of both sides were immense. At the climax of the battle, when all seemed lost, the Emperor himself took the field, launching a teleport strike on Horus' flagship, his aim a decapitation stike both metaphorical and literal. The Emperor and Horus battled hand-to-hand. Horus, a consumate warrior-king, inflicted grevious injuries on the Emperor, but the Emperor proved victorius. With Horus' death, and Loyalist reinforcements imminent, the Traitor Legions broke and ran. 
 
+The Space Marine Legions are interesting organisations. Each is very different. Their homeworlds and genetics give rise to wildly varying cultures and combat doctrines. Some are savage berserkers, revelling in hand-to-hand combat. Others are more professional, excelling in modern combined-arms warfare. Others are stranger still. All have a unique character. I personally am fascinated by the detailed backgrounds, organisations, doctrines and histories. 
+
 ### Scope
 
-The Space Marine Legions are interesting organisations. Each is very different. Their homeworlds and genetics give rise to wildly varying cultures and combat doctrines. Some are savage berserkers, revelling in hand-to-hand combat. Others are more professional, excelling in modern combined-arms warfare. Others are stranger still. I personally am fascinated by the detailed backgrounds, organisations, doctrines and histories, and this website is a homage of sorts to that variety, aiming to present users with a distillation of my knowledge. 
+This website is intended to provide users with with a distillation of my knowledge of the Space Marine Legions. 
 
 Other sites exist to do this - namely [the Warhammer 40k fandom wiki](https://warhammer40k.fandom.com/wiki/Warhammer_40k_Wiki) and [Lexicanum](https://wh40k.lexicanum.com/wiki/Main_Page)
 
-That said, I personally dislike using these sites. The Lexicanum site has a boring and uninteresting colour palette of grey and black. The Fandom site is more interesting, especially with the striking background image. However, I find it suffers from bloat - the information is not condensed as you might expect from a wikia site, and is often copy-pasted directly from source material. This website aims to fix that. It will make good use of the fantastically detailed artwork and will use an appealing, setting-appropriate colour palette. The content presented will be my own distillation of the source material, written in a short, punchy style. It will also be focused entirely on the Space Marine Legions, though scope exists for additional pages to be added dealing with other factions in the Horus Heresy setting. 
+That said, I personally dislike using these sites. The Lexicanum site has a boring and uninteresting colour palette of grey and black. The Fandom site is more interesting, especially with the striking background image. However, I find it suffers from bloat - the information is not condensed as you might expect from a wikia site, and is often copy-pasted directly from source material. Neither makes for an especially enjoyable reading experience - with Lexicanum, the user is forced to endure the bland colours, and with the Fandom site, the user to forced to trawl through a seemingly endless screed of often-contradictory information. 
 
-The site is planned to consist of 4 pages - an index landing page, a contact page, and two content pages, one for the Loyalist Legions and the other for the Traitor Legions
+This website aims to fix that. It will make good use of the fantastically detailed artwork and will use an appealing, setting-appropriate colour palette. The content presented will be my own distillation of the source material. As I am the sole author, I can ensure that all of the information presented is correct and accurate as best as I can determine, but that it does not go into unnecessary and trivial detail. It will also be focused entirely on the Space Marine Legions, though scope exists for additional pages to be added dealing with other aspects of the Horus Heresy setting, such as in-setting history, other factions and major battles. 
+
+The site is planned to consist of 4 pages - an index landing page, a contact page, and two content pages, one for the Loyalist Legions and the other for the Traitor Legions.
 
 The index page consists of a background image, an eye-catching heading, a small navigation pane on the upper-right hand side, a block of text discussing the purpose of the site and two buttons that are links to the two content pages. 
+
+The content pages are the main feature of the site. Each features 9 articles, one for each of the Legions, since there were 9 Loyalist and 9 Traitor Legions.
+
+The contact page is intended as a contact form, a way for users to get in touch with me to discuss any aspect of the Warhammer 40k setting, from books to rulesets. A properly working contact form is currently beyond my skills and beyond the scope of the project, though my Mentor has indicated that it is relatively simple to turn it into a working form. This should provide an excellent addition to the project. 
 
 ### Audience
 
@@ -45,15 +53,22 @@ The contact.html page contains a contact form. As a working contact form is outs
 
 ### Wireframes
 
-I had the idea for this project some weeks into starting the Code Institute course and began refining it mentally soon after. The project was properly started on the 24th of January 2022 with some basic wireframes drawn on a few sheets of A3 paper. These were refined into digital wireframes using Balsamiq, which were updated following a Mentor planning session with Ronan McLelland. These are stored in the repository in the assets/wireframes directory. Links are below:
+I had the idea for this project some weeks into starting the Code Institute course and began refining it mentally soon after. The project was properly started on the 24th of January 2022 with some basic wireframes drawn on a few sheets of A3 paper. These were refined into digital wireframes using Balsamiq, which were updated following a Mentor planning session with Ronan McLelland. These are the initial design of the project, and any differences are the result of experimentation and iteration. These are stored in the repository in the assets/wireframes directory. The images are below. 
 
-Homepage.png - the wireframe for index.html
+Homepage:<br>
+![homepage.png](assets/wireframes/homepage.png)
 
-Content.png - the wireframe for traitors.html and loyalists.html, as both share the same template
+Content pages
+<br>The wireframe for traitors.html and loyalists.html, as they will initially appear with the hero image fully visible, as both share the same template: <br>
 
-Content-scrolled.png - the wireframe for traitors.html and loyalists.html with the content scrolled up to cover the background image and display the content, as both share the same template
+![Content scrolled down](assets/wireframes/content-scrolled-down.png)
 
-Contact.png - the wireframe for contact.html, the contact form. 
+<br>
+The wireframe for traitors.html and loyalists.html with the content scrolled up to cover the background image and display the content, as both share the same template:<br>
+![Content scrolled up](assets/wireframes/content-scrolled-up.png) 
+
+Contact.png - the wireframe for contact.html, the contact form:<br>
+![Contact](assetswireframes/contact.png)
 
 A conscious effort was made to ensure that the same basic design applies to all pages - a bright, colourful (possibly violent) background image, a heading on a dark background, a small nav bar to the upper right of the window, a fixed footer and all content in dark coloured boxes.
 
