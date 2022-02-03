@@ -209,10 +209,64 @@ a {
 }
 
 .legion-article {
-    background: blue;
+    background-color: black;
     width: 80%;
-    height: 800px;
+    height: 900px;
     margin: 50px auto 0 auto;
+    padding: 15px
+}
+
+.legion-article-header {
+    background-color: red;
+    color: white;
+    width: 40%;
+    height: 50px;
+    margin: 0 auto; 
+}
+
+.legion-article-header h2 {
+    text-align: center;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.quick-facts {
+    float: left;
+    height: 200px;
+    width: 40%;
+    background-color: red;
+}
+
+.preview-images {
+    float: right;
+    height: 200px;
+    width: 40%;
+    background-color: red
+}
+
+.image-container {
+    display: inline-block;
+    height: 100px;
+    width: 80px;
+    background-color: white;
+    margin: 10px;
+}
+
+.discussion {
+    height: 350px;
+    width: 90%;
+    background-color: white;
+    margin: 10px auto 0 auto;
+}
+
+.image-gallery {
+    height: 200px;
+    width: 90%;
+    margin: 10px auto 0 auto;
+    background-color: yellow;
 }
 
 #emperors-children {
