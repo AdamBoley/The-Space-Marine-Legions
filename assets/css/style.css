@@ -104,11 +104,16 @@ a {
     color: black;
 }
 
-.content {
-    clear: both;
-}
+
 
 /*Homepage style rules*/
+
+#homepage-background-image {
+    background-image: url('https://placeimg.com/1000/1000/nature');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 #intro-text {
     clear: both;
@@ -160,11 +165,70 @@ a {
 
 /*Traitor and Loyalist content page style rules*/
 
+#traitor-background-image {
+    background-image: url('https://placeimg.com/1000/1000/nature');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#loyalist-background-image {
+    background-image: url('https://placeimg.com/1000/1000/nature');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content {
+    clear: both;
+}
+
+#traitor-intro {
+    margin: 100px auto 0 auto;
+    width: 33%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 20px
+}
+
+#loyalist-intro {
+    margin: 100px auto 0 auto;
+    width: 33%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 20px
+}
+
+#loyalist-intro, #traitor-intro p {
+    text-align: center;
+
+}
 
 .legion-article {
     background: blue;
     width: 80%;
     height: 800px;
-    margin: 20px;
+    margin: 50px auto 0 auto;
 }
 
+#emperors-children {
+    margin: 50vh auto 0 auto;
+}
+
+#dark-angels {
+    margin: 50vh auto 0 auto;
+}
+
+
+/*Contact page style rules*/
+
+#contact-background-image {
+    background-image: url('https://placeimg.com/1000/1000/nature');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

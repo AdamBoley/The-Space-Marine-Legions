@@ -64,11 +64,12 @@ Content pages
 ![Content scrolled down](assets/wireframes/content-scrolled-down.png)
 
 <br>
-The wireframe for traitors.html and loyalists.html with the content scrolled up to cover the background image and display the content, as both share the same template:<br>
-![Content scrolled up](assets/wireframes/content-scrolled-up.png) 
+The wireframe for traitors.html and loyalists.html with the content scrolled up to cover the background image and display the content, as both share the same template: <br>
+
+ ![Content scrolled up](assets/wireframes/content-scrolled-up.png)
 
 Contact.png - the wireframe for contact.html, the contact form:<br>
-![Contact](assetswireframes/contact.png)
+![Contact](assets/wireframes/contact.png)
 
 A conscious effort was made to ensure that the same basic design applies to all pages - a bright, colourful (possibly violent) background image, a heading on a dark background, a small nav bar to the upper right of the window, a fixed footer and all content in dark coloured boxes.
 
@@ -106,6 +107,10 @@ This repository can be cloned and edited in Gitpod out of the box - there are no
 A blue button should appear to click: _Make Public_,
 
 Another blue button should appear to click: _Open Browser_.
+
+## Bugs
+
+A small bug was noted early in development - When navigating to the traitor.html and loyalist.html pages, ocassionally the scroll-bar on the right-hand-side of the screen does not load, though scrolling is still possible via mouse-wheel. Since the scroll-bar takes up viewport width, the positioning and dimensions of the content of the pages is adjusted. The lack of the scroll-bar and subsequent adjustment is especially apparent when navigating from traitor.html to loyalist.html and vice-versa, as they have essentially the same layout - the elements appear to jerk to the right. This is jarring. As of 3/2/2022, the cause of this is unknown, possibly related to internet connection speeds and browser load times.  
 
 
 ## Credits
