@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*declare with font-family: 'Gothic A1', sans-serif*/
+
 /*Site-wide rules - most general, appling to all pages*/
 body {
     margin: 0;
     position: relative;
     min-height: 100vh;
+    font-family: 'Gothic A1', sans-serif;
 }
 
 footer {
@@ -27,7 +31,6 @@ footer div ul {
 footer div ul li {
     display: inline-block;
     margin: 0 20px 0 20px;
-    
 }
 
 a {

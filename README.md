@@ -74,6 +74,11 @@ Contact.png - the wireframe for contact.html, the contact form:<br>
 A conscious effort was made to ensure that the same basic design applies to all pages - a bright, colourful (possibly violent) background image, a heading on a dark background, a small nav bar to the upper right of the window, a fixed footer and all content in dark coloured boxes.
 
 
+### Design Choices 
+
+The Gothic A1 font-family was chosen for two reasons. First, it is a sans-serif font, and is both clean and sober. 
+Secondly, the Gothic style feastures heavily in the Warhammer setting, with Gothic architecture, a Gothic language and a generally dark, bleak theme. 
+
 
 ### Technologies
 
