@@ -95,7 +95,10 @@ Lighthouse was used for testing
 
 ### Future work
 
-Since this project will only use HTML and CSS, a working contact form that actually allows a user to send me a message and begin a discussion is outside of the scope, since this requires web-development skills that I have not yet learnt.  
+Since this project will only use HTML and CSS, a working contact form that actually allows a user to send me a message and begin a discussion is outside of the scope, since this requires web-development skills that I have not yet learnt.
+
+Per the wireframes for the content pages, buttons that scroll the images in the image galleries back and forth were originally envisioned. However, research into this showed that this was only possible using JavaScript, such as [in this tutorial](https://www.youtube.com/watch?v=82f07Xf0xgE). Once I have learned JavaScript, buttons may be added. 
+
 
 
 ## Usage
@@ -127,11 +130,13 @@ The Warhammer 40k setting has created hundreds of images over the years, and pro
 
 ### Acknowledgements
 
-[Alan Bligh](https://www.belloflostsouls.net/2017/05/bell-tolls-alan-bligh.html) RIP - A massive thanks to Alan for writing the Horus Heresy codicies from which the information on this site was gathered and distilled
+Alan Bligh, John French, Andy Hoare, Neil Wylie, Anju Malhotra - A massive thanks to these authors for writing the Horus Heresy codicies from which the information on this site was gathered and distilled. Sadly [Alan Bligh died in 2017 from cancer](https://www.belloflostsouls.net/2017/05/bell-tolls-alan-bligh.html). In a way, this site is dedicated to Alan's memory and his near-legendary contribution to the Warhammer setting. RIP Alan. 
 
 [Games Workshop](https://www.games-workshop.com/en-GB/Home)/[Forge World](https://www.forgeworld.co.uk/en-GB/FW-Home)/[Black Library](https://www.blacklibrary.com/default.aspx) - For creating the Warhammer 40k setting and publishing Alan Bligh's work.  
 
 [Ronan McLelland](https://www.linkedin.com/in/ronanmcclelland/) - my Mentor, who proved invaluable in project planning and providing guidance on User Design and User Experience principles
+
+[Code Burst](https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6) - This particular Code Burst page showed me how to make a horizontally-scrollable image gallery for each of the Legion Articles
 
 
 

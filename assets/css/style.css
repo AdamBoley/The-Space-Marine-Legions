@@ -186,26 +186,23 @@ a {
 #traitor-intro {
     margin: 100px auto 0 auto;
     width: 33%;
-    height: 100px;
+    height: 200px;
     background-color: black;
     color: white;
     border-radius: 15px;
-    padding: 20px
+    padding: 20px;
+    text-align: center;
 }
 
 #loyalist-intro {
     margin: 100px auto 0 auto;
     width: 33%;
-    height: 100px;
+    height: 200px;
     background-color: black;
     color: white;
     border-radius: 15px;
-    padding: 20px
-}
-
-#loyalist-intro, #traitor-intro p {
+    padding: 20px;
     text-align: center;
-
 }
 
 .legion-article {
@@ -260,6 +257,7 @@ a {
     width: 90%;
     background-color: white;
     margin: 10px auto 0 auto;
+    overflow: auto;
 }
 
 .image-gallery {
@@ -267,6 +265,9 @@ a {
     width: 90%;
     margin: 10px auto 0 auto;
     background-color: yellow;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 
 #emperors-children {
