@@ -79,6 +79,11 @@ A conscious effort was made to ensure that the same basic design applies to all 
 The Gothic A1 font-family was chosen for two reasons. First, it is a sans-serif font, and is both clean and sober. 
 Secondly, the Gothic style feastures heavily in the Warhammer setting, with Gothic architecture, a Gothic language and a generally dark, bleak theme. 
 
+The Iron Warriors Legion don't have a particularly impressive colour scheme - mostly steel-grey. As the Legion Articles were styled using the colour schemes of the Legion under discussion, I though that the Iron Warriors entry would be too bland. However, the Iron Warriors' one concession to style is often black and white hazard stripes as can be seen 
+in their artwork. [This CSS Tricks article ](https://css-tricks.com/stripes-css/) and [this Youtube video](https://www.youtube.com/watch?v=4kWHW7da4U8) were used to apply hazard stripes to the Legion Article card. 
+
+[This CSS Tricks article](https://css-tricks.com/snippets/css/css-triangle/) was used to create a triangle .... Could be useful for arrows
+
 
 ### Technologies
 
