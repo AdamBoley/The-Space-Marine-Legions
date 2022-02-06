@@ -84,6 +84,8 @@ in their artwork. [This CSS Tricks article ](https://css-tricks.com/stripes-css/
 
 [This CSS Tricks article](https://css-tricks.com/snippets/css/css-triangle/) was used to create a triangle .... Could be useful for arrows
 
+The image gallery was created with help [from this article](https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/). 
+
 
 ### Technologies
 
