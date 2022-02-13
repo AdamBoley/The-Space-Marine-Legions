@@ -136,7 +136,110 @@ A small bug was noted early in development - When navigating to the traitor.html
 
 ### Images
 
-The Warhammer 40k setting has created hundreds of images over the years, and proper acknowledgements are difficult to make. Most of the images were taken from the Space Marine Legion pages on [the Warhammer 40k fandom wiki](https://warhammer40k.fandom.com/wiki/Warhammer_40k_Wiki):
+The Warhammer 40k setting has created hundreds of images over the years, and proper acknowledgements are difficult to make. 
+
+Images for the Dark Angels and Night Lords Legion Articles were obtained from the [Warhammer Community site](https://www.warhammer-community.com/), particularly the Road To Thramas pages:
+[Road to Thramas part 1](https://www.warhammer-community.com/2019/12/09/the-road-to-thramas-part-1-wings-of-the-dark-angelsfw-homepage-post-3/)
+[Road to Thramas part 2](https://www.warhammer-community.com/2020/01/07/the-road-to-thramas-part-2-on-the-knight-shiftfw-homepage-post-2/)
+[Road to Thramas part 3](https://www.warhammer-community.com/2020/02/03/the-road-to-thramas-part-3-terror-troopsgw-homepage-post-2fw-homepage-post-1/)
+[Road to Thramas part 4](https://www.warhammer-community.com/2020/03/02/the-road-to-thramas-part-4-marvellous-mindersfw-homepage-post-2/)
+[Road to Thramas part 5](https://www.warhammer-community.com/2020/04/06/the-road-to-thramas-part-5-the-lionfw-homepage-post-2/)
+[Road to Thramas part 6](https://www.warhammer-community.com/2020/07/06/the-road-to-thramas-part-6-back-on-the-road/)
+[Road to Thramas part 7](https://www.warhammer-community.com/2020/08/03/the-road-to-thramas-part-7-end-of-the-road/)
+[](https://warhammer40k.fandom.com/wiki/Dark_Angels?so=search)
+
+Images for the Emperor's Children Legion were obtained from:
+[](https://www.warhammer-community.com/2020/12/22/saul-tarvitz-the-first-loyalistgw-homepage-post-2fw-homepage-post-2/)
+[](https://warhammer40k.fandom.com/wiki/Emperor%27s_Children)
+
+Images for the Iron Warriors Legion were obtained from:
+[](https://www.warhammer-community.com/2017/05/10/the-lord-of-iron/)
+[](https://warhammer40k.fandom.com/wiki/Iron_Warriors?so=search)
+
+Images for the White Scars Legion were obtained from:
+[A Warhammer Community article](https://www.warhammer-community.com/2020/07/31/forge-world-pre-order-begin-the-hunt/)
+[](https://warhammer40k.fandom.com/wiki/White_Scars?so=search)
+
+Images for the Wolves of Fenris Legion were obtained from:
+[](https://www.warhammer-community.com/2017/04/21/my-armour-is-contempt/)
+[](https://www.warhammer-community.com/2017/02/22/closer-look-inferno-space-wolves/)
+[](https://warhammer40k.fandom.com/wiki/Space_Wolves?so=search)
+
+Images for the Imperial Fists Legion were obtained from:
+[](https://www.warhammer-community.com/2021/05/14/the-new-imperial-fists-praetors-are-perfect-for-butchering-iron-warriors/)
+[](https://www.warhammer-community.com/2021/12/11/revealed-new-models-straight-from-the-pages-of-the-siege-of-terra/)
+[](https://www.warhammer-community.com/2018/02/16/praetorian-terra-tabletop/)
+[](https://warhammer40k.fandom.com/wiki/Imperial_Fists?so=search)
+
+Images for the Night Lords Legion were obtained from:
+[](https://www.warhammer-community.com/2020/09/01/horus-heresy-faction-focus-the-night-lords/)
+[](https://www.warhammer-community.com/2021/01/12/meet-the-night-lords-that-give-the-rest-of-the-legion-nightmares/)
+[](https://www.warhammer-community.com/2021/09/21/destroyer-squads-return-to-the-horus-heresy-to-sow-the-seeds-of-devastation/)
+[](https://warhammer40k.fandom.com/wiki/Night_Lords?so=search)
+
+Images for the Blood Angels Legion were obtained from:
+[](https://www.warhammer-community.com/2021/12/11/revealed-new-models-straight-from-the-pages-of-the-siege-of-terra/)
+[](https://warhammer40k.fandom.com/wiki/Blood_Angels?so=search)
+
+
+Images for the Iron Hands Legion were obtained from:
+[](https://warhammer40k.fandom.com/wiki/Iron_Hands?so=search)
+[]()
+
+Images for the World Eaters Legion were obtained from:
+[](https://warhammer40k.fandom.com/wiki/World_Eaters)
+[]()
+
+Images for the Ultramarines Legion were obtained from:
+[](https://www.warhammer-community.com/2021/08/23/the-ultramarines-legion-praetors-are-ideal-for-avenging-calth/)
+[](https://www.warhammer-community.com/2021/09/21/destroyer-squads-return-to-the-horus-heresy-to-sow-the-seeds-of-devastation/)
+[](https://www.warhammer-community.com/2021/10/07/remus-ventanus-is-here-to-save-calth-with-maximum-panache/)
+[](https://warhammer40k.fandom.com/wiki/Ultramarines?so=search)
+
+Images for the Death Guard Legion were obtained from:
+[](https://warhammer40k.fandom.com/wiki/Death_Guard)
+[]()
+
+Images for the Thousand Sons Legion were obtained from:
+[](https://www.warhammer-community.com/2017/05/26/magnus-the-red/)
+[](https://www.warhammer-community.com/2017/05/05/the-elite-of-the-xv-legion/)
+[](https://www.warhammer-community.com/2017/04/28/the-osiron-pattern-contemptor-dreadnought/)
+[](https://www.warhammer-community.com/2017/04/14/iron-guardians-of-tizca-the-castellax-achea/)
+[](https://warhammer40k.fandom.com/wiki/Thousand_Sons)
+
+Images for the Sons of Horus Legion were obtained from: 
+[A Warhammer Community article](https://www.warhammer-community.com/2021/11/15/this-son-of-horus-is-clearly-daddys-favourite-hes-been-given-the-best-armour/) about the release of a new model
+[](https://www.warhammer-community.com/2021/07/20/surprise-the-sons-of-horus-are-getting-a-menacing-new-praetor-to-lead-them-into-battle/)
+[](https://www.warhammer-community.com/2021/04/15/meet-the-true-power-behind-the-warmasters-throne/)
+[](https://www.warhammer-community.com/2019/10/14/the-colours-of-treacheryfw-homepage-post-2/)
+[](https://warhammer40k.fandom.com/wiki/Black_Legion?so=search)(The Sons of Horus were later known as the Black Legion)
+
+Images for the Word Bearers Legion were obtained from:
+[](https://www.warhammer-community.com/2021/03/26/add-reinforcements-to-your-word-bearers-army-with-the-latest-forge-world-pre-orders/)
+[](https://warhammer40k.fandom.com/wiki/Word_Bearers)
+[]()
+
+Images for the Salamanders Legion were obtained from:
+[](https://warhammer40k.fandom.com/wiki/Salamanders?so=search)
+[]()
+
+
+Images for the Raven Guard Legion were obtained from:
+[](https://warhammer40k.fandom.com/wiki/Raven_Guard)
+[]()
+
+Images for the Alpha Legion were obtained from:
+[](https://www.warhammer-community.com/2018/11/09/new-from-the-space-marine-armouries/)
+[]()
+
+Images for various vehicles were obtained from:
+[](https://www.warhammer-community.com/2020/05/14/horus-heresy-lords-of-war-top-5gw-homepage-post-4/)
+
+others:
+[](https://www.warhammer-community.com/2017/03/31/gunslingers-and-walking-tanks/)
+[](https://www.warhammer-community.com/2016/12/09/dreadnoughts-breachers-and-chainglaives-from-forge-world/)
+
+Most of the images were taken from the Space Marine Legion pages on [the Warhammer 40k fandom wiki](https://warhammer40k.fandom.com/wiki/Warhammer_40k_Wiki):
 
 
 
