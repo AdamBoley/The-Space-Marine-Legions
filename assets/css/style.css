@@ -211,7 +211,7 @@ a {
 .legion-article {
     background-color: black;
     width: 80%;
-    height: 1000px; 
+    height: 1150px; 
     margin: 50px auto 0 auto;
     padding: 15px
 }
@@ -251,17 +251,16 @@ a {
 
 .image-container {
     display: inline-block;
-    height: 150px;
-    width: 132px;
-    background-color: rgb(247, 243, 243);
     margin: 10px;
 }
 
-
+.image-container img {
+    height: 320px;
+}
 
 
 .discussion {
-    height: 350px;
+    height: 400px;
     width: 90%;
     background-color: white;
     margin: 10px auto 0 auto;
@@ -269,7 +268,7 @@ a {
 }
 
 .image-gallery {
-    height: 250px;
+    height: 380px;
     width: 90%;
     margin: 10px auto 0 auto;
     background-color: yellow;
