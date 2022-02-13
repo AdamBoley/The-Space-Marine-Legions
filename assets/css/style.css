@@ -211,7 +211,7 @@ a {
 .legion-article {
     background-color: black;
     width: 80%;
-    height: 900px;
+    height: 1000px; 
     margin: 50px auto 0 auto;
     padding: 15px
 }
@@ -235,26 +235,30 @@ a {
 
 .quick-facts {
     float: left;
-    height: 200px;
-    width: 65%;
+    height: 250px;
+    width: 55%;
     background-color: red;
     overflow: auto;
 }
 
 .preview-images {
     float: right;
-    height: 200px;
-    width: 30%;
-    background-color: red
+    height: 250px;
+    width: 40%;
+    background-color: red;
+    overflow: hidden;
 }
 
 .image-container {
     display: inline-block;
-    height: 100px;
-    width: 80px;
-    background-color: white;
+    height: 150px;
+    width: 132px;
+    background-color: rgb(247, 243, 243);
     margin: 10px;
 }
+
+
+
 
 .discussion {
     height: 350px;
@@ -265,7 +269,7 @@ a {
 }
 
 .image-gallery {
-    height: 200px;
+    height: 250px;
     width: 90%;
     margin: 10px auto 0 auto;
     background-color: yellow;
