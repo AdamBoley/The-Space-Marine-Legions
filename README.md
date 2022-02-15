@@ -127,7 +127,9 @@ Another blue button should appear to click: _Open Browser_.
 
 A small bug was noted early in development - When navigating to the traitor.html and loyalist.html pages, ocassionally the scroll-bar on the right-hand-side of the screen does not load, though scrolling is still possible via mouse-wheel. Since the scroll-bar takes up viewport width, the positioning and dimensions of the content of the pages is adjusted. The lack of the scroll-bar and subsequent adjustment is especially apparent when navigating from traitor.html to loyalist.html and vice-versa, as they have essentially the same layout - the elements appear to jerk to the right. This is jarring. As of 3/2/2022, the cause of this is unknown, possibly related to internet connection speeds and browser load times - at the time, the site was importing many placeholder images.  
 
-When adding the images, it was noted that not all of the images are of the same dimensions. This is probably due to the images being acquired from different sources. Broadly speaking, the images of legionaries come in two different sizes - roughly 120px wide by 200px high, and 135px wide by 200px high, with a pixel or two difference. When viewed in the image galleries, this was jarring.  
+When adding the images, it was noted that not all of the images are of the same dimensions. This is probably due to the images being acquired from different sources. Broadly speaking, the images of legionaries come in two different sizes - roughly 120px wide by 200px high, and 135px wide by 200px high, with a pixel or two difference. When viewed in the image galleries, this was jarring. 
+
+The commits made from the 12th of February to the 19th of February may be confusing, as I was constantly adding and removing images. Those that were removed were considered unsuitable. Hence, the flow of the project's development may appear dirupted around this point, though I was working around variable image qualities and a lot of a consideration was needed.  
 
 
 ## Credits
