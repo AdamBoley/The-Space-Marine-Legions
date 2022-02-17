@@ -128,7 +128,6 @@ a {
     height: 100px;
     border-radius: 15px;
     margin: 100px auto 0 auto;
-    
 }
 
 .text-box {
@@ -184,6 +183,12 @@ a {
     background-attachment: fixed;
 }
 
+h2 {
+    text-align: center;
+    color: inherit;
+    font-size: xx-large;
+}
+
 .content {
     clear: both;
 }
@@ -210,42 +215,32 @@ a {
     text-align: center;
 }
 
-.note {
-    color: white;
-    font-size: medium;
-}
-
-.note-one {
-    float: left;
-    margin-top: 100px;
-    margin-left: 100px;
-}
-
-.note-two {
-    float: right;
-    margin-top: 100px;
-    margin-right: 100px;
-}
-
 .legion-article {
     background-color: black;
     width: 80%;
-    height: 1650px; 
+    height: 1700px; 
     margin: 50px auto 0 auto;
-    padding: 15px
+    padding: 15px;
 }
 
-.legion-article-header {
+.legion-article div {
+    padding: 10px;
+}
+
+/*.legion-article-header {
     background-color: red;
     color: black;
-    width: 40%;
-    height: 50px;
-    margin: 0 auto; 
+    width: 20%;
+    margin: 0 auto 20px auto; 
+    
 }
 
-.legion-article-header h2 {
+.legion-article-header h1 {
     text-align: center;
-}
+    font-size: xx-large;
+}*/
+
+
 
 .wrapper {
     width: 90%;
@@ -254,25 +249,45 @@ a {
 
 .quick-facts {
     float: left;
-    height: 350px;
-    width: 55%;
-    background-color: red;
+    height: 255px;
+    width: 50%;
     overflow: auto;
+    padding: 10px;
 }
 
 .preview-images {
     float: right;
-    height: 350px;
-    width: 40%;
-    background-color: red;
+    height: 255px;
+    width: 45%;
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
+    padding: 10px;
+    background-color: white!important;
 }
 
 .image-container-preview {
     display: inline-block;
-    margin: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.discussion {
+    height: 400px;
+    width: 90%;
+    margin: 10px auto 0 auto;
+    overflow: auto;
+    clear: both;
+}
+
+.image-gallery {
+    height: 380px;
+    width: 90%;
+    margin: 10px auto 0 auto;
+    background-color: white;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 
 .image-container {
@@ -287,43 +302,25 @@ a {
 .image-container-white {
     display: inline-block;
     margin: 10px;
-    /*height: 300px;
-    width: 250px;
-    background-color: blue!important;*/
 }
 
 .image-container-white img {
     padding-left: 25%;
 }
 
-
-.discussion {
-    height: 400px;
-    width: 90%;
-    background-color: white;
-    margin: 10px auto 0 auto;
-    overflow: auto;
-}
-
-.image-gallery {
-    height: 380px;
-    width: 90%;
-    margin: 10px auto 0 auto;
-    background-color: yellow;
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-}
+/*Emperor's Children Legion Article*/
 
 #emperors-children {
     margin: 45vh auto 0 auto;
     background-color: purple;
-    color: black;
+    color: white;
 }
 
-#emperors-children div {
-    background-color: white;
+.emperors-children-div {
+    border: 2px solid gold;
 }
+
+/*Iron Warriors Legion Article*/
 
 #iron-warriors {
     background: linear-gradient(
@@ -342,14 +339,158 @@ a {
         yellow 120px,
         slategrey 120px,
         slategrey
-        );/*This style rule is used to create the hazard stripes on the Iron Warriors Legion Article. 
+        );/*This style rule is used to create the hazard stripes in the uppper left hand corner of the Iron Warriors Legion Article. 
         Each stripe is defined by the two colours with the same length, the first colour defined being the colour of the stripe. The two colours are necessary
         to create hard transitions that mimic a stripe effect*/
 }
 
+.iron-warriors-div {
+    border: 2px solid yellow;
+}
+
+
+/*Night Lords Legion Article*/
+
+#night-lords {
+    background-color: midnightblue;
+    color: #93b9df;
+}
+
+.night-lords-div {
+    border: 2px solid #93b9df;
+}
+
+#world-eaters {
+    background-color: #f5f5f5;
+    color: darkblue;
+}
+
+.world-eaters-div {
+    border: 2px solid darkblue;
+}
+
+#death-guard {
+    background-color: whitesmoke;
+    color: #436439;
+}
+
+.death-guard-div {
+    border: 2px solid #86a17d;
+}
+
+#thousand-sons {
+    background-color: #cc1100;
+    color: gold;
+}
+
+.thousand-sons-div {
+    border: 2px solid gold;
+}
+
+#sons-of-horus {
+    background-color: rgb(48, 103, 92);
+    color: black;
+}
+
+.sons-of-horus-div {
+    border: 2px solid black;
+}
+
+#word-bearers {
+    background-color: #8b0000;
+    color: silver;
+}
+
+.word-bearers-div {
+    border: 2px solid silver;
+}
+
+#alpha-legion {
+    background-color: #065465;
+    color: silver
+}
+
+.alpha-legion-div {
+    border: 2px solid silver;
+}
+
 #dark-angels {
     margin: 50vh auto 0 auto;
+    background-color: rgb(35, 36, 36);
+    color: whitesmoke;
 }
+
+#white-scars {
+    background-color: white;
+    color: #cc1100;
+}
+
+.white-scars-div {
+    border: 2px solid #cc1100;
+}
+
+#wolves-of-fenris {
+    background-color: rgb(70, 70, 70);
+    color: #d7d0c0;
+}
+
+.wolves-of-fenris-div {
+    border: 2px solid #d7d0c0;
+}
+
+#imperial-fists {
+    background-color: yellow;
+    color: black;
+}
+
+.imperial-fists-div {
+    border: 2px solid black;
+}
+
+#blood-angels {
+    background-color: #800000;
+    color: silver;
+}
+
+.blood-angels-div {
+    border: 2px solid black;
+}
+
+#iron-hands {
+    background-color: silver;
+    color: black;
+}
+
+.iron-hands-div {
+    border: 2px solid black;
+}
+
+#ultramarines {
+    background-color: #0047ab;
+    color: gold;
+}
+
+.ultramarines-div {
+    border: 2px solid black;
+}
+
+#salamanders {
+    background-color: rgb(25, 95, 25);
+    color: orange;
+}
+
+.salamanders-div {
+    border: 2px solid black;
+}
+
+#raven-guard {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.raven-guard-div {
+    border: 2px solid whitesmoke;
+}  
 
 
 /*Contact page style rules*/
