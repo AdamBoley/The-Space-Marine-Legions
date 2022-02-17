@@ -33,3 +33,9 @@ assets/images/white-backgrounds/white-scars/ws-legion-mkvi-legionary.jpg
 assets/images/white-backgrounds/white-scars/ws-legion-golden-star-brotherhood-banner.jpg
 assets/images/white-backgrounds/white-scars/ws-legion-black-axe-brotherhood-banner.jpg
 assets/images/white-backgrounds/white-scars/ws-legion-mkii-legionary-decorated.jpg
+
+assets/images/white-backgrounds/ultramarines/um-legion-apothercary.jpg
+assets/images/white-backgrounds/ultramarines/um-legion-invictarus-centurion.jpg
+assets/images/white-backgrounds/ultramarines/um-legion-invictarus-legionary.jpg
+
+assets/images/white-backgrounds/salamanders/sm-legion-breacher.jpg
