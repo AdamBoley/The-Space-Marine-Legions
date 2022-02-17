@@ -112,10 +112,12 @@ a {
 /*Homepage style rules*/
 
 #homepage-background-image {
-    background-image: url('https://placeimg.com/1000/1000/nature');
+    background-image: url('../images/background-images/ultramarine-power-fist.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-color: navy;
+    overflow: hidden;
 }
 
 #intro-text {
@@ -169,14 +171,14 @@ a {
 /*Traitor and Loyalist content page style rules*/
 
 #traitor-background-image {
-    background-image: url('https://placeimg.com/1000/1000/nature');
+    background-image: url('../images/background-images/battle-of-molech.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 #loyalist-background-image {
-    background-image: url('https://placeimg.com/1000/1000/nature');
+    background-image: url('../images/background-images/battle-of-phall.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -206,6 +208,23 @@ a {
     border-radius: 15px;
     padding: 20px;
     text-align: center;
+}
+
+.note {
+    color: white;
+    font-size: medium;
+}
+
+.note-one {
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.note-two {
+    float: right;
+    margin-top: 100px;
+    margin-right: 100px;
 }
 
 .legion-article {
@@ -336,8 +355,59 @@ a {
 /*Contact page style rules*/
 
 #contact-background-image {
-    background-image: url('https://placeimg.com/1000/1000/nature');
+    background-image: url('../images/background-images/the-primarchs.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    overflow: hidden;
+}
+
+#contact-background {
+    height: 620px;
+    width: 800px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 30px;
+    padding: 20px;
+    float: left;
+}
+
+fieldset {
+    margin-bottom: 10px;
+}
+
+.details {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.hobbying {
+    margin-bottom: 10px;
+}
+
+.form-options {
+    margin-top: 5px;
+}
+
+.form-options input {
+    margin-right: 10px;
+}
+
+.form-options input:hover {
+    background-color: black;
+    color: white;
+}
+
+.hmmm {
+    color: white;
+    float: right;
+    margin-top: 200px;
+    margin-right: 100px;
+    font-size: small;
+}
+
+.hmmm p:nth-child(2) {
+    font-size: smaller;
 }

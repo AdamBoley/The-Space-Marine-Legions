@@ -39,3 +39,7 @@ assets/images/white-backgrounds/ultramarines/um-legion-invictarus-centurion.jpg
 assets/images/white-backgrounds/ultramarines/um-legion-invictarus-legionary.jpg
 
 assets/images/white-backgrounds/salamanders/sm-legion-breacher.jpg
+
+
+The Primarchs - https://cutewallpaper.org/download.php?file=/21/horus-heresy-wallpaper/Horus-Heresy-Wallpapers-1920x1080-Warhammer-in-2019-.jpg
+DOWII - https://www.teahub.io/down/hJooTx_warhammer-40k-ultramarine-artwork-strong-warhammer-40k/
