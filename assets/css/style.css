@@ -125,9 +125,11 @@ a {
     background-color: black;
     color: white;
     width: 33%;
-    height: 100px;
+    height: 130px;
     border-radius: 15px;
+    border-style: outset;
     margin: 100px auto 0 auto;
+    padding: 10px;
 }
 
 .text-box {
@@ -136,7 +138,7 @@ a {
 
 .button p, #contact p, #intro-text p {
     text-align: center;
-    border: 1px solid white;
+   
 }
 
 .button {
@@ -302,6 +304,20 @@ h2 {
 .image-container-white {
     display: inline-block;
     margin: 10px;
+    color: black!important;
+    width: 200px;   
+    border: 1px solid black;
+    
+}
+
+.image-container-white p {
+    font-size: smaller;
+    width: 150px;
+    height: 150px;                      
+    border: 1px solid blue;
+    overflow: hidden;
+    
+    
 }
 
 .image-container-white img {
