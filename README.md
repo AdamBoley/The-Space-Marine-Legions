@@ -16,7 +16,7 @@ As the Great Crusade, as this campaign of galatic conquest was known, drew to a 
 
 The Siege of Terra, as the final battle was called, was titanic in scale. Casualties of both sides were immense. At the climax of the battle, when all seemed lost, the Emperor himself took the field, launching a teleport strike on Horus' flagship, his aim a decapitation stike both metaphorical and literal. The Emperor and Horus battled hand-to-hand. Horus, a consumate warrior-king, inflicted grevious injuries on the Emperor, but the Emperor proved victorius. With Horus' death, and Loyalist reinforcements imminent, the Traitor Legions broke and ran. 
 
-The Space Marine Legions are interesting organisations. Each is very different. Their homeworlds and genetics give rise to wildly varying cultures and combat doctrines. Some are savage berserkers, revelling in hand-to-hand combat. Others are more professional, excelling in modern combined-arms warfare. Others are stranger still. All have a unique character. I personally am fascinated by the detailed backgrounds, organisations, doctrines and histories. 
+The Space Marine Legions are interesting organisations. Each is very different. Their homeworlds and genetics give rise to wildly varying cultures and combat doctrines. Some are savage berserkers, revelling in hand-to-hand combat. Others are more professional, excelling in modern combined-arms warfare. Others are stranger still, with focuses on armoured warfare, siege tactics, reconnaissance or infiltration. All have unique characters and histories. I personally am fascinated by the detailed backgrounds, organisations, doctrines and histories. 
 
 ### Scope
 
