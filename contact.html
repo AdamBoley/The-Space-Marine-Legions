@@ -10,142 +10,146 @@
 </head>
 <body id="contact-background-image">
 
-    <header class="header-background">
+    <div id="contact-page">
 
-        <div class="header">
-            <a href="index.html"><h1>The Space Marine Legions</h1></a>
-        </div>
+        <header class="header-background">
 
-        <div class="nav">
-            <nav>
+            <div class="header">
+                <a href="index.html"><h1>The Space Marine Legions</h1></a>
+            </div>
 
-                <ul>
+            <div class="nav">
+                <nav>
 
-                    <li><a href="traitors.html">The Traitor Legions</a></li>
+                    <ul>
 
-                    <li><a href="loyalists.html">The Loyalist Legions</a></li>
+                        <li><a href="traitors.html">The Traitor Legions</a></li>
 
-                    <li><a href="contact.html">Contact me</a></li>
+                        <li><a href="loyalists.html">The Loyalist Legions</a></li>
 
-                </ul>
+                        <li><a href="contact.html">Contact me</a></li>
 
-            </nav>
-        </div>
+                    </ul>
+
+                </nav>
+            </div>
+            
+        </header>
+
+        <main>
         
-    </header>
+            <div id="contact-background">
 
-    <main>
-    
-        <div id="contact-background">
+                <h2>Contact Me</h2>
 
-            <h2>Contact Me</h2>
+                <p>I like discussing all aspects of Warhammer, from the tabletop game, to artwork, to books, to the most obscure lore!</p>
 
-            <p>I like discussing all aspects of Warhammer, from the tabletop game, to artwork, to books, to the most obscure lore!</p>
+                <p>Use this form to send me an email and begin a conversation</p>
 
-            <p>Use this form to send me an email and begin a conversation</p>
+                <form action="https://formdump.codeinstitute.net" method="POST">
 
-            <form action="https://formdump.codeinstitute.net" method="POST">
+                    <fieldset>
+                        <legend>Your details</legend>
 
-                <fieldset>
-                    <legend>Your details</legend>
+                        <div class="details">
+                            <label for="first-name">First name</label>
+                            <br>
+                            <input type="text" name="first_name" id="first-name" placeholder="Your first name" size="28">
+                        </div>
 
-                    <div class="details">
-                        <label for="first-name">First name</label>
-                        <br>
-                        <input type="text" name="first_name" id="first-name" placeholder="Your first name" size="28">
+                        <div class="details">
+                            <label for="last-name">Last name</label>
+                            <br>
+                            <input type="text" name="last_name" id="last-name" placeholder="Your second name" size="28">
+                        </div>
+
+                        <div class="details">
+                            <label for="email">Email</label>
+                            <br>
+                            <input type="email" name="email" id="email" placeholder="Your email address" size="28">
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Hobbying</legend>
+
+                        <div class="hobbying">
+                            <p>Do you currently have a Warhammer 40k army?</p>
+
+                            <label for="yes">Yes</label>
+                            <input type="radio" name="has_an_army" id="yes">
+
+                            <label for="no">No</label>
+                            <input type="radio" name="has_an_army" id="no">
+                        </div>
+
+                        <div class="hobbying">
+                        <label for="what-army">If yes, what army?</label>
+                            <select name="army" id="what-army">
+                                <option value="Space Marines">Space Marines</option>
+                                <option value="Adeptus Custodes">Adeptus Custodes</option>
+                                <option value="Astra Militarum">Astra Militarum</option>
+                                <option value="Sisters of Battle">Sisters of Battle</option>
+                                <option value="Adeptus Mechanicus">Adeptus Mechanicus</option>
+                                <option value="Imperial Knights">Imperial Knights</option>
+                                <option value="Heretic Astartes">Heretic Astartes</option>
+                                <option value="Death Guard">Death Guard</option>
+                                <option value="Thousand Sons">Thousand Sons</option>
+                                <option value="Chaos Knights">Chaos Knights</option>
+                                <option value="Tau">Tau</option>
+                                <option value="Necrons">Necrons</option>
+                                <option value="Orks">Orks</option>
+                                <option value="Aeldari">Aeldari</option>
+                                <option value="Drukhari">Drukhari</option>
+                                <option value="Harlequins">Harlequins</option>
+                                <option value="Ynnari">Ynnari</option>
+                                <option value="Tyranids">Tyranids</option>
+                                <option value="Genestealer Cults">Genestealer Cults</option>
+                            </select>
+                        </div>
+
+                        <div class="hobbying">
+                            <label for="sub-faction">Do you run your army as a particular sub-faction? E.g Deathwatch, Alpha Legion, Blood Axes, etc.</label>
+                            <input type="text" id="sub-faction" name="sub_faction" placeholder="Your sub-faction">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Your message</legend>
+
+                        <!--Label unnecessary due to fieldset element-->
+                        <textarea name="message" id="message" cols="100" rows="5" placeholder="Your message"></textarea>
+
+                    </fieldset>
+
+                    <div class="form-options">
+
+                        <input type="submit" value="Send your message">
+
+                        <input type="reset" value="Reset the form">
+
                     </div>
 
-                    <div class="details">
-                        <label for="last-name">Last name</label>
-                        <br>
-                        <input type="text" name="last_name" id="last-name" placeholder="Your second name" size="28">
-                    </div>
+                </form> 
+                <!--Please note that a working form is currently beyond my skillset and the scope of this project. My mentor has indicated that the form could be made to work with MailChimp-->
+            </div>
 
-                    <div class="details">
-                        <label for="email">Email</label>
-                        <br>
-                        <input type="email" name="email" id="email" placeholder="Your email address" size="28">
-                    </div>
+        </main> 
+        
+        <aside>
 
-                </fieldset>
+            <div class="hmmm">
+                <p>Hmmm....I wonder what Horus and Fulgrim are discussing here....</p>
 
-                <fieldset>
-                    <legend>Hobbying</legend>
+                <p>Horus is one handsome fella though....</p>
+            </div>
 
-                    <div class="hobbying">
-                        <p>Do you currently have a Warhammer 40k army?</p>
+        </aside>
 
-                        <label for="yes">Yes</label>
-                        <input type="radio" name="has_an_army" id="yes">
+    </div>
 
-                        <label for="no">No</label>
-                        <input type="radio" name="has_an_army" id="no">
-                    </div>
-
-                    <div class="hobbying">
-                    <label for="what-army">If yes, what army?</label>
-                        <select name="army" id="what-army">
-                            <option value="Space Marines">Space Marines</option>
-                            <option value="Adeptus Custodes">Adeptus Custodes</option>
-                            <option value="Astra Militarum">Astra Militarum</option>
-                            <option value="Sisters of Battle">Sisters of Battle</option>
-                            <option value="Adeptus Mechanicus">Adeptus Mechanicus</option>
-                            <option value="Imperial Knights">Imperial Knights</option>
-                            <option value="Heretic Astartes">Heretic Astartes</option>
-                            <option value="Death Guard">Death Guard</option>
-                            <option value="Thousand Sons">Thousand Sons</option>
-                            <option value="Chaos Knights">Chaos Knights</option>
-                            <option value="Tau">Tau</option>
-                            <option value="Necrons">Necrons</option>
-                            <option value="Orks">Orks</option>
-                            <option value="Aeldari">Aeldari</option>
-                            <option value="Drukhari">Drukhari</option>
-                            <option value="Harlequins">Harlequins</option>
-                            <option value="Ynnari">Ynnari</option>
-                            <option value="Tyranids">Tyranids</option>
-                            <option value="Genestealer Cults">Genestealer Cults</option>
-                        </select>
-                    </div>
-
-                    <div class="hobbying">
-                        <label for="sub-faction">Do you run your army as a particular sub-faction? E.g Deathwatch, Alpha Legion, Blood Axes, etc.</label>
-                        <input type="text" id="sub-faction" name="sub_faction" placeholder="Your sub-faction">
-                    </div>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Your message</legend>
-
-                    <!--Label unnecessary due to fieldset element-->
-                    <textarea name="message" id="message" cols="100" rows="5" placeholder="Your message"></textarea>
-
-                </fieldset>
-
-                <div class="form-options">
-
-                    <input type="submit" value="Send your message">
-
-                    <input type="reset" value="Reset the form">
-
-                </div>
-
-            </form> 
-            <!--Please note that a working form is currently beyond my skillset and the scope of this project. My mentor has indicated that the form could be made to work with MailChimp-->
-        </div>
-
-    </main> 
-    
-    <aside>
-
-        <div class="hmmm">
-            <p>Hmmm....I wonder what Horus and Fulgrim are discussing here....</p>
-
-            <p>Horus is one handsome fella though....</p>
-        </div>
-
-    </aside>
-    
-    <footer>
+    <footer id="contact-footer">
 
         <div class="copyright">
 
