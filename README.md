@@ -129,6 +129,8 @@ Per the wireframes for the content pages, buttons that scroll the images in the 
 
 The Warhammer 40k Horus Heresy setting includes background information on many other organisations, such as the Titans Legions, the Mechanicum and the Imperial Household. These should proves excellent additions to the site. 
 
+Should I deploy and run the site in a meaningful way by expanding the content and inviting collaboration from others, it would be a good idea to create dedicated social media accounts for the project and its collaborators. These would be accessed by updating the social media links in the footers of each page so that they open these accounts in new tabs.  
+
 ## Usage
 
 This repository can be cloned and edited in Gitpod out of the box - there are no external libraries or dependencies required. A preview browser can be opend by running the server. To do this, type in the terminal:
