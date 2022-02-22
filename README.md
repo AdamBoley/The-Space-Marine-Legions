@@ -242,6 +242,7 @@ The index page background image was obtained from:<br>
 
 The traitor content background image was obtained from: <br>
 [Cute Wallpaper](https://cutewallpaper.org/download.php?file=/21/horus-heresy-wallpaper/Imgur-The-magic-of-the-Internet.jpg)
+[](https://coolwallpapers.me/6058809-first-heretic-aaron-dembski-bowden-warhammer-40k-horus-heresy.html)
 
 The loyalist content background image was obtained from: <br>
 [Warhammer Fandom](https://warhammer40k.fandom.com/wiki/Battle_of_Phall)
