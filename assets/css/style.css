@@ -278,7 +278,7 @@ h2 {
     margin-top: 25px;
     width: 35%;
     height: 280px;
-    background-color: rgba(255, 251, 0, 0.7);
+    background-color: rgba(255, 255, 0, 0.7);
     color: rgb(0, 0, 0);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 15px;
@@ -289,11 +289,13 @@ h2 {
 .internal-navigation-loyalist ul li {
     display: inline-block;
     margin: 10px;
+    font-weight: 700;
 }
 
 .internal-navigation-traitor ul li {
     display: inline-block;
     margin: 10px;
+    font-weight: 700;
 }
 
 .internal-navigation-loyalist a {
@@ -423,16 +425,23 @@ h2 {
     color: black;
 }
 
+#first-article {
+    margin-top: 400px;
+    color:white;
+}
+
 .next-article a i {
     font-size: 500%;
     margin-left: 50%;
 }
 
 
+
+
 /*Emperor's Children Legion Article*/
 
 #emperors-children {
-    margin: 45vh auto 0 auto;
+    margin: 5vh auto 0 auto;
     background-color: rgb(66, 0, 66);
     color: white;
 }
@@ -536,7 +545,7 @@ h2 {
 }
 
 #dark-angels {
-    margin: 50vh auto 0 auto;
+    margin: 5vh auto 0 auto;
     background-color: rgb(35, 36, 36);
     color: whitesmoke;
 }
