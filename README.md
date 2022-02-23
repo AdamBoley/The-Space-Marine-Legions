@@ -97,12 +97,14 @@ The loyalists.html background image features the Imperial Fists boarding an Iron
 
 The contact.html background image features Horus and Fulgrim quietly discussing some business. Since the contact page is designed to invite collaboration, I thought a non-violent image of two figures talking was more suitable.
 
-Each Legion Article's colour scheme is designed to mimic the armour colours of the Legion it discusses. The primary colour - purple, sea-green, blue, etc - is the background, and the detail colour - gold, yellow, black, etc - is the colour of the text and borders. 
+Each Legion Article's colour scheme is designed to mimic the armour colours of the Legion it discusses. The primary colour of the armour plates - purple, sea-green, blue, etc - is the background, and the detail colour of the edging - gold, yellow, black, etc - is the colour of the text and borders. 
 
 The Iron Warriors Legion don't have a particularly impressive colour scheme - mostly steel-grey. As the Legion Articles were styled using the colour schemes of the Legion under discussion, I though that the Iron Warriors entry would be too bland. However, the Iron Warriors' one concession to style is often black and white hazard stripes as can be seen 
 in their artwork. [This CSS Tricks article ](https://css-tricks.com/stripes-css/) and [this Youtube video](https://www.youtube.com/watch?v=4kWHW7da4U8) were used to apply hazard stripes to the Legion Article card. 
 
 The image gallery was created with help [from this article](https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/). 
+
+When inserting the images into the image galleries, I used a consistent ordering system. Images of legionaries in MkII armour (identified by the overlapping armour plates) were first, then images of legionaries in MkIII armour (identified by grilled helmets), then images of legionaries in MkIV armour (identified by combined leg and knee armour), then images of breachers (identified by shields), then images of terminators (identified by bulky armour), then images of basic Contemptor Dreadnoughts (identified by 1 gun), then images of Contemptor-Mortis Dreadnoughts (identified by 2 guns), then specialised Dreadnoughts (Leviathan and Deredeo Dreadnoughts, identified by their bulkiness)
 
 ### Technologies
 
