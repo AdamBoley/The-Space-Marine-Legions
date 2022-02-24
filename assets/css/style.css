@@ -533,7 +533,7 @@ h2 {
 
 #sons-of-horus {
     background-color: rgb(48, 103, 92);
-    color: black;
+    color: white;
 }
 
 .sons-of-horus-div {
@@ -542,7 +542,7 @@ h2 {
 
 #word-bearers {
     background-color: #8b0000;
-    color: silver;
+    color: rgb(255, 255, 255);
 }
 
 .word-bearers-div {
@@ -551,7 +551,7 @@ h2 {
 
 #alpha-legion {
     background-color: #065465;
-    color: silver
+    color: rgb(255, 255, 255)
 }
 
 .alpha-legion-div {

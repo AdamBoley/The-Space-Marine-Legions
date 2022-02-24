@@ -99,12 +99,30 @@ The contact.html background image features Horus and Fulgrim quietly discussing 
 
 Each Legion Article's colour scheme is designed to mimic the armour colours of the Legion it discusses. The primary colour of the armour plates - purple, sea-green, blue, etc - is the background, and the detail colour of the edging - gold, yellow, black, etc - is the colour of the text and borders. 
 
+This colour scheme was modified in the case of the Sons of Horus, where the text is white. I decided that black text on a dark sea-green background offered insufficient contrast. 
+
 The Iron Warriors Legion don't have a particularly impressive colour scheme - mostly steel-grey. As the Legion Articles were styled using the colour schemes of the Legion under discussion, I though that the Iron Warriors entry would be too bland. However, the Iron Warriors' one concession to style is often black and white hazard stripes as can be seen 
 in their artwork. [This CSS Tricks article ](https://css-tricks.com/stripes-css/) and [this Youtube video](https://www.youtube.com/watch?v=4kWHW7da4U8) were used to apply hazard stripes to the Legion Article card. 
 
 The image gallery was created with help [from this article](https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/). 
 
-When inserting the images into the image galleries, I used a consistent ordering system. Images of legionaries in MkII armour (identified by the overlapping armour plates) were first, then images of legionaries in MkIII armour (identified by grilled helmets), then images of legionaries in MkIV armour (identified by combined leg and knee armour), then images of breachers (identified by shields), then images of terminators (identified by bulky armour), then images of basic Contemptor Dreadnoughts (identified by 1 gun), then images of Contemptor-Mortis Dreadnoughts (identified by 2 guns), then specialised Dreadnoughts (Leviathan and Deredeo Dreadnoughts, identified by their bulkiness)
+I decided to use two image galleries - a main and a preview. This was because, while all of the images were of a suitable quality, not all had the same proportions. Those images of legionaries with helmet crests have the same image dimensions as those without crests, so the actual legionaries with crests appear shrunken. Those 'shrunken' images were moved to the preview galleries where they could still be present, but not disrupt the flow of the full image gallery. The reverse is true of the Emperor's Children article, where the larger images are in the preview gallery and the smaller images are in the main gallery, since there were more smaller images than larger images. 
+
+When inserting the images into the image galleries, I used a consistent ordering system. Images of legionaries in MkII armour (identified by the overlapping armour plates) were first, then images of legionaries in MkIII armour (identified by grilled helmets), then images of legionaries in MkIV armour (identified by combined leg and knee armour), then images of breachers (identified by shields), then images of terminators (identified by bulky armour), then images of basic Contemptor Dreadnoughts (identified by 1 gun), then images of Contemptor-Mortis Dreadnoughts (identified by 2 guns), then specialised Dreadnoughts (Leviathan and Deredeo Dreadnoughts, identified by their bulkiness). 
+
+This ordering system was altered slightly for the images of Night Lords legionaries, as the first five images are all of legionaries from a single group, so it made sense to keep them together. 
+
+The system was also altered in the case of the Death Guard preview gallery, where the image of the Dusk Raider is shown last. This is because of the altered colour scheme, which has no descriptive text to explain it. 
+
+For several Legions - the Dark Angels, White Scars, Wolves of Fenris, Blood Angels and Thousand Sons - there were few images available. I suspect this is because the codexes (the source material containing the images) discussing these Legions have not been available for very long, and hence the Warhammer community hasn't been able to acquire, digitize and post a large number of images to the Fandom articles. Rather than use sub-standard images, I decided to use a 4th-wall break, explaining the lack of images from the perspective of the historian writing the articles using a feasible, in-universe explanation. My mentor assures me that this is perfectly acceptable. 
+
+The two content pages contain a considerable amount of internal navigation. The idea behind this is to give the user options when using the site, and to save them having to scroll through the entire page, which ended up being quite long. From the top of each content page, users can jump directly to each Legion article. At the top of each Legion article, either side of the heading, are icons that jump to the last and next Legion article, and at the bottom of each article is an icon that jumps to the next article. At the bottom of the last article are two icons. The single up arrow jumps to the previous article, and the double up arrow jumps to the introductory text. This allows the user to navigate a long page with only a few clicks or taps and a mimimum of scrolling. 
+
+### Accessibility
+
+I have taken pains to ensure that all images have either an aria-label or aria-labelledby attribute. Most images have been given an aria-labelledby attribute, since the images are present in both the full image gallery and the preview gallery, and hence the images in the preview gallery can use the description in the full image gallery. 
+
+Those images that only exist in the preview gallery have been given an aria-label attribute, as it did not make sense to have image descriptions in the preview gallery when, in many cases, they would be duplicated in the full image gallery. 
 
 ### Technologies
 
