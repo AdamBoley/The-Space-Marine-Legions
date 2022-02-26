@@ -23,11 +23,11 @@
 
                     <ul>
 
-                        <li><a href="traitors.html" class="nav-traitor" aria-label="Explore the Traitor Legions (redirects to new page)">The Traitor Legions</a></li>
+                        <li class="nav-traitor"><a href="traitors.html" aria-label="Explore the Traitor Legions (redirects to new page)">The Traitor Legions</a></li>
 
-                        <li><a href="loyalists.html" class="nav-loyalist" aria-label="Explore the Loyalist Legions (redirects to new page)">The Loyalist Legions</a></li>
+                        <li class="nav-loyalist"><a href="loyalists.html" aria-label="Explore the Loyalist Legions (redirects to new page)">The Loyalist Legions</a></li>
 
-                        <li><a href="contact.html" class="nav-contact" aria-label="Contact me (redirects to new page)">Contact me</a></li>
+                        <li class="nav-contact"><a href="contact.html" aria-label="Contact me (redirects to new page)">Contact me</a></li>
 
                     </ul>
 
@@ -79,13 +79,14 @@
 
                             <label for="yes">Yes</label>
                             <input type="radio" name="has_an_army" id="yes">
-
-                            <label for="no">No</label>
+                            
+                            <label for="no">No </label>
                             <input type="radio" name="has_an_army" id="no">
                         </div>
 
                         <div class="hobbying">
-                        <label for="what-army">If yes, what army?</label>
+                            <label for="what-army">If yes, what army?</label>
+                            <br>
                             <select name="army" id="what-army">
                                 <option value="Space Marines">Space Marines</option>
                                 <option value="Adeptus Custodes">Adeptus Custodes</option>
@@ -111,6 +112,7 @@
 
                         <div class="hobbying">
                             <label for="sub-faction">Do you run your army as a particular sub-faction? E.g Deathwatch, Alpha Legion, Blood Axes, etc.</label>
+                            <br>
                             <input type="text" id="sub-faction" name="sub_faction" placeholder="Your sub-faction">
                         </div>
                     </fieldset>
@@ -139,7 +141,7 @@
 
     </div>
 
-    <footer id="contact-footer">
+    <footer class="footer">
 
         <div class="copyright">
 

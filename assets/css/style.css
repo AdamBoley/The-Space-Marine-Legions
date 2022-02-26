@@ -67,13 +67,14 @@ a {
     display: inline-block;
     vertical-align: middle;
     margin-right: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 .nav a {
     text-decoration: none;
     padding: 5px 10px;
-    border: 1px solid white;
-    border-radius: 5px; 
+     
 }
 
 .nav-traitor {
@@ -144,6 +145,8 @@ footer div span {
 }
 
 /*General Media Queries*/
+
+
 
 @media screen and (max-width: 1270px) {
     
@@ -268,6 +271,12 @@ footer div span {
 }
 
 /*Homepage media queries*/
+
+@media screen and (max-width: 1685px) {
+    #intro-text {
+        height: 250px;
+    }
+}
 
 @media screen and (max-width: 1410px) {
 
@@ -611,12 +620,6 @@ h2 {
     color: black;
 }
 
-
-
-
-
-
-
 /*Emperor's Children Legion Article*/
 
 #emperors-children {
@@ -876,7 +879,7 @@ h2 {
 
     #traitor-intro, #loyalist-intro {
         height: 380px;
-        width: 50%
+        width: 50%;
     }
 }
 
@@ -903,6 +906,10 @@ h2 {
 @media screen and (max-width: 700px) {
     #traitor-intro, #loyalist-intro {
         height: 480px;
+    }
+
+    #iron-warriors h2{
+        margin-top: 150px;
     }
 }
 
@@ -1020,6 +1027,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: 85%;
     overflow: hidden;
 }
 
@@ -1033,7 +1041,7 @@ h2 {
     border: 2px solid white;
     border-radius: 30px;
     padding: 20px;
-    /*float: left;*/
+    
 }
 
 #contact-background legend, #contact-background label {
@@ -1055,22 +1063,20 @@ fieldset {
 
 .form-options {
     margin: 0 auto;
+    width: 300px;
+    margin-bottom: 20px;
 }
 
 .form-options input:nth-child(1) {
+    float: left;
     background-color: green;
     color: white;
-    margin-left: 200px;
 }
 
 .form-options input:nth-child(2) {
+    float: right;
     background-color: red;
     color: white;
-    margin-left: 100px;
-}
-
-.form-options input {
-    margin-right: 10px;
 }
 
 .form-options input:hover {
@@ -1078,10 +1084,59 @@ fieldset {
     color: black;
 }
 
-#contact-footer {
-    clear: both;
-}
-
 #contact-page {
     min-height: calc(100vh - 20px);
+}
+
+/*Contact page media queries*/
+
+@media screen and (max-width: 1270px) {
+    #contact-background {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    fieldset {
+        width: 90%;
+        
+    }
+
+    textarea {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    #contact-page {
+        min-height: calc(100vh - 60px);
+    }
+    
+    #contact-background-image {
+        overflow: auto;
+    }
+
+    .details {
+        display: block;
+    }
+
+    #contact-background {
+        height: auto;
+    }
+}
+
+
+
+@media screen and (max-width: 885px) {
+    
+
+}    
+
+@media screen and (max-width: 340px) {
+    .form-options {
+        width: 250px;
+    }
+
+    .details input {
+        width: 200px;
+    }
 }
