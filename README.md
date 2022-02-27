@@ -2,21 +2,49 @@
 
 # Code Institute Portfolio Project 1: User-centric Front-end Development using HTML and CSS
 
+# Table of Contents
+
+1. [Background](#background)
+2. [Scope](#scope)
+3. [Audience](#audience)
+3. [Function](#function)
+4. [User Stories](#user-stories)
+5. [Wireframes](#wireframes)
+6. [Design Choices](#design-choices)
+7. [Accessibility](#accessibility)
+8. [Future Work](#future-work)
+9. [Bugs](#bugs)
+10. [Technologies](#technologies)
+11. [Usage](#usage)
+12. [Testing](#usage)
+    - [Testing User Stories](#testing-user-stories)
+    - [Testing Functionality](#testing-functionality)
+    - [Testing on different devices](#testing-on-different-devices)
+    - [Testing code](#testing-code)
+13. [Credits](#credits)
+    - [Inspiration](#inspiration)
+    - [Images](#images)
+    - [Acknowledgements](#acknowledgements)
+
+
+
+
+
 ## Background
 
-I am a huge fan of the Warhammer 40,000 science-fiction setting. Warhammer 40k, as it is commonly known, is primarily a physical table-top game played with dice, painted miniatures and tape measures. It has existed in one form or another for about 40 years, and over that time, it has grown in many ways - playable armies, the range of miniatures, paints, and so on
+I am a huge fan of the Warhammer 40,000 science-fiction setting. Warhammer 40k, as it is commonly known, is primarily a physical table-top game played with dice, painted miniatures and tape measures. It has existed in one form or another for about 40 years, and over that time, it has grown in many ways - playable armies, the range of miniatures, paints, and so on.
 
-Another way in which it has grown is the background information, referred to as the lore or, more affectionately, the 'fluff' (as opposed to the 'crunch' of the physical game rules)
+Another way in which it has grown is the background information, referred to as the lore or, more affectionately, the 'fluff' (as opposed to the 'crunch' of the physical game rules).
 
 Much of the story-telling revolves around the primary human civilisation of the setting, the Imperium of Mankind, a hyper-militant fascistic theocracy spanning a million worlds. The Imperium itself has existed for 10,000 years. It was founded in the 31st Millenium, called M31 in the parlance of the setting, and the current setting takes place in the 41st Millenium, or M41. 
 
-A long-running series of books, the Horus Heresy series, was started by Games Workshop's publishing house, Black Library, about 15 years ago, to explore the founding of the Imperium. The short version is this - the Imperium was founded by the Emperor of Mankind, who used genetically-enhanced warriors called Space Marines to conquer the Milky Way galaxy. The Space Marines were organised into 18 Legions, each Legion having diverging doctrinally, organisationally and genetically. Each was led by a general - a genetically engineered being called a Primarch, who provided the genetic enhancements that created the Space Marines. 
+A long-running series of books, the Horus Heresy series, was started by Games Workshop's publishing house, Black Library, about 15 years ago, to explore the founding of the Imperium. The short version is this - the Imperium was founded by the Emperor of Mankind, who used genetically-enhanced warriors called Space Marines to conquer the Milky Way galaxy in a campaign called the Great Crusade. The Space Marines were organised into 18 Legions, each Legion having diverging doctrinally, organisationally and genetically. Each was led by a general - a genetically engineered being called a Primarch, who provided the genetic enhancements that created the Space Marines. 
 
-As the Great Crusade, as this campaign of galatic conquest was known, drew to a close, the Emperor's most accomplished Primarch - Horus Lupercal of the 16th Legion - betrayed the Imperium and the Emperor. He took fully half of the Space Marine Legions - his own 'Sons of Horus' and 8 others - into rebellion, and waged a campaign to topple the Emperor. Thus began the Horus Heresy. The other 9 Loyalist Legions opposed Horus, and wars of untold ferocity raged across human space. After years of hard fighting, Horus and his Traitor Legions arrived at Earth, the seat of the Emperor. 
+As the Great Crusade drew to a close, the Emperor's most accomplished Primarch - Horus Lupercal of the 16th Legion - was named Warmaster, to direct the Great Crusade in the Emperor's stead. Some years later, after mysterious events on the moon of Davin, Horus betrayed the Imperium and the Emperor. He took fully half of the Space Marine Legions - his own 'Sons of Horus' and 8 others - into rebellion, and waged a campaign to topple the Emperor. Thus began the Horus Heresy. The other 9 Loyalist Legions opposed Horus, and wars of untold ferocity raged across human space. After years of hard fighting, Horus and his Traitor Legions arrived at Earth, the seat of the Emperor. 
 
 The Siege of Terra, as the final battle was called, was titanic in scale. Casualties of both sides were immense. At the climax of the battle, when all seemed lost, the Emperor himself took the field, launching a teleport strike on Horus' flagship, his aim a decapitation stike both metaphorical and literal. The Emperor and Horus battled hand-to-hand. Horus, a consumate warrior-king, inflicted grevious injuries on the Emperor, but the Emperor proved victorius. With Horus' death, and Loyalist reinforcements imminent, the Traitor Legions broke and ran. 
 
-The Space Marine Legions are interesting organisations. Each is very different. Their homeworlds and genetics give rise to wildly varying cultures and combat doctrines. Some are savage berserkers, revelling in hand-to-hand combat. Others are more professional, excelling in modern combined-arms warfare. Others are stranger still, with focuses on armoured warfare, siege tactics, reconnaissance or infiltration. All have unique characters and histories. I personally am fascinated by the detailed backgrounds, organisations, doctrines and histories. 
+The Space Marine Legions are interesting organisations. Each is very different. Their homeworlds, histories, Primarchs and genetics give rise to wildly varying cultures and combat doctrines. Some are savage berserkers, revelling in hand-to-hand combat. Others are more professional, excelling in modern combined-arms warfare. Others are stranger still, with focuses on armoured warfare, siege tactics, reconnaissance or infiltration. All have unique characters and histories. I personally am fascinated by the detailed backgrounds, organisations, doctrines and histories. 
 
 ## Scope
 
@@ -60,28 +88,45 @@ Users should be able to easily navigate within the content pages
 
 ## Wireframes
 
-I had the idea for this project some weeks into starting the Code Institute course and began refining it mentally soon after. The project was properly started on the 24th of January 2022 with some basic wireframes drawn on a few sheets of A3 paper. These were refined into digital wireframes using Balsamiq, which were updated following a Mentor planning session with Ronan McLelland. These are the initial design of the project, and any differences are the result of experimentation and iteration. These are stored in the repository in the assets/wireframes directory. The images are below. 
+### Initial wireframes
+
+I had the idea for this project some weeks into starting the Code Institute course and began refining it mentally soon after. The project was properly started on the 24th of January 2022 with some basic wireframes drawn on a few sheets of A3 paper. These were refined into digital wireframes using Balsamiq, which were updated following a Mentor planning session with Ronan McLelland. These represent the initial design of the project. These are stored in the repository in the assets/wireframes/initial directory. The images are below. 
 
 Homepage:<br>
-![homepage.png](assets/wireframes/homepage.png)
+![Homepage](assets/wireframes/initial/homepage.png)
 
 Content pages
 <br>The wireframe for traitors.html and loyalists.html, as they will initially appear with the hero image fully visible, as both share the same template: <br>
 
-![Content scrolled down](assets/wireframes/content-scrolled-down.png)
+![Content scrolled down](assets/wireframes/initial/content-scrolled-down.png)
 
 <br>
 The wireframe for traitors.html and loyalists.html with the content scrolled up to cover the background image and display the content, as both share the same template: <br>
 
-![Content scrolled up](assets/wireframes/content-scrolled-up.png)
+![Content-scrolled-up](assets/wireframes/initial/content-scrolled-up.png)
 
 Contact.png - the wireframe for contact.html, the contact form:<br>
-![Contact](assets/wireframes/contact.png)
+![Contact](assets/wireframes/initial/contact.png)
 
-A conscious effort was made to ensure that the same basic design applies to all pages - a bright, colourful (possibly violent) background image, a heading on a dark background, a small nav bar to the upper right of the window, a fixed footer and all content in dark coloured boxes.
+### Final Wireframes
 
+When the project was completed, I held a final planning session with Ronan McLelland, and he indicated that it would be a good idea to create new wireframes to represent the final design choices. This indicates that the initial design as represented above was closely adhered to, with some tinkering around the edges. These are below. 
 
-### Design Choices 
+Homepage:<br>
+![Homepage](assets/wireframes/final/homepage-v2.png)
+
+Content page:<br>
+![Content-v2](assets/wireframes/final/content-v2.png)
+
+The wireframe for the traitor and loyalist pages with the content scrolled up to cover the background image. Both pages share the same template:<br>
+![Content-scrolled-up-v2](assets/wireframes/final/content-scrolled-up-v2.png)
+
+Contact page:<br>
+![Contact](assets/wireframes/final/contact-v2.png)
+
+## Design Choices 
+
+### Background images
 
 The Gothic A1 font-family was chosen for the text content for two reasons. First, it is a sans-serif font, and is both clean and sober. 
 Secondly, the Gothic style feastures heavily in the Warhammer setting, with Gothic architecture, a Gothic language and a generally dark, bleak theme. 
@@ -89,26 +134,71 @@ Secondly, the Gothic style feastures heavily in the Warhammer setting, with Goth
 The Open Sans font-family was chosen for the heading elements because the bold version of the Gothic A1 font-family has an uneven design that is somewhat jarring and has a slightly comical effect. Open Sans is a clean, legible, even font. 
 
 The background images were chosen for their visual impact - I wanted bold, exciting, violent images. 
-The index.html background image features a Space Marine officer pointing using his power fist. It is of extraordinarily high definition, and is the image printed on the front of the 6th Edition Space Marine codex used in the tabletop wargame. It is a very heroic image that instantly catches the eye of the user. 
+The index.html background image features a Space Marine officer pointing using his power fist. It is of extraordinarily high definition, and is the image printed on the front of the 6th Edition Space Marine codex used in the tabletop wargame. It is a very heroic image that instantly catches the eye of the user. Since this is an image designed for a A4-sized reference book, the 'action' is centered in the middle of the page. This allowed me to place the introductory text and internal navigation buttons to the left-hand-side and right-hand-side of the page respectively, leaving the image unobscured. 
 
-The traitors.html background image features Warmaster Horus Lupercal leading a charge with his Sons of Horus close behind. 
+The traitors.html background image is a digital version of the cover image for the book "The First Heretic", and features members of the Word Bearers Gal Vorbak fighting the Legio Custodes. 
 
-The loyalists.html background image features the Imperial Fists boarding an Iron Warriors vessel whilst their ships engage behind them.
+The loyalists.html background image is a digital version of the cover image for the book "Shadows of Treachery", and features the Imperial Fists boarding an Iron Warriors vessel whilst their ships engage behind them during the Battle of Phall.
 
-The contact.html background image features Horus and Fulgrim quietly discussing some business. Since the contact page is designed to invite collaboration, I thought a non-violent image of two figures talking was more suitable.
+The contact.html background image is a digital version of the cover image for the book "The Primarchs", and features Horus and Fulgrim quietly discussing some business during the Triumph of Ullanor. Since the contact page is designed to invite collaboration and discussion with users, I thought a non-violent image of two Primarchs talking was more suitable.
 
-Each Legion Article's colour scheme is designed to mimic the armour colours of the Legion it discusses. The primary colour of the armour plates - purple, sea-green, blue, etc - is the background, and the detail colour of the edging - gold, yellow, black, etc - is the colour of the text and borders. 
+The background images for the content pages and the contact page were chosen as they are cover images that wrap around the front, spine and back of the books. This means that almost all of the 'action', so to speak, takes place in the right-most 40% of the image. The left-most 60% is mostly covered by the title of the book on the spine, and the blurb on the back cover. This allowed me to place the contact form and content page introductions on the left-hand-side of the page, where conventional visual hierarchy dictates the users' eye starts when they start looking at a page. Once the user has finished looking at the introductory text or has completed the contact form, the user is free to admire the main action of the background image, which is unobscured. 
 
-This colour scheme was modified in the case of the Sons of Horus, where the text is white. I decided that black text on a dark sea-green background offered insufficient contrast. 
+These design choices only apply for larger screen sizes, such as desktops and laptops. Media queries have been implemented so that once the project is viewed on tablets and smartphones, the contact form and introductory text boxes expand to cover the background images. However, since the text boxes are semi-transparent, the background images are still mostly visible. 
 
-The Iron Warriors Legion don't have a particularly impressive colour scheme - mostly steel-grey. As the Legion Articles were styled using the colour schemes of the Legion under discussion, I though that the Iron Warriors entry would be too bland. However, the Iron Warriors' one concession to style is often black and white hazard stripes as can be seen 
-in their artwork. [This CSS Tricks article ](https://css-tricks.com/stripes-css/) and [this Youtube video](https://www.youtube.com/watch?v=4kWHW7da4U8) were used to apply hazard stripes to the Legion Article card. 
+### Colour schemes
 
-The image gallery was created with help [from this article](https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/). 
+I decided to use a unified colour scheme for each of the pages beyond the home page. This colour applies to the buttons in the navigation bar of the header, the buttons on the home page, the introductory text boxes on the content pages, and the contact form. The page for the Traitor Legions uses a dark red colour for its introductory text box with white text, and the corresponding button that links to that page on the homepage shares those colours. The same is true of the page for the Loyalist Legions, which uses a yellow text box and black text. 
 
-I decided to use two image galleries - a main and a preview. This was because, while all of the images were of a suitable quality, not all had the same proportions. Those images of legionaries with helmet crests have the same image dimensions as those without crests, so the actual legionaries with crests appear shrunken. Those 'shrunken' images were moved to the preview galleries where they could still be present, but not disrupt the flow of the full image gallery. The reverse is true of the Emperor's Children article, where the larger images are in the preview gallery and the smaller images are in the main gallery, since there were more smaller images than larger images. 
+The colour schemes for the Legion pages are deliberate, as they match the predominant colours used in the background images - dark red for the Gal Vorbak on the Traitor Legion page, and bright yellow for the Imperial Fist boarders for the Loyalist Legion page. 
 
-When inserting the images into the image galleries, I used a consistent ordering system. Images of legionaries in MkII armour (identified by the overlapping armour plates) were first, then images of legionaries in MkIII armour (identified by grilled helmets), then images of legionaries in MkIV armour (identified by combined leg and knee armour), then images of breachers (identified by shields), then images of terminators (identified by bulky armour), then images of basic Contemptor Dreadnoughts (identified by 1 gun), then images of Contemptor-Mortis Dreadnoughts (identified by 2 guns), then specialised Dreadnoughts (Leviathan and Deredeo Dreadnoughts, identified by their bulkiness). 
+The blue for the contact form and homepage introductory text was chosen for several reasons. Firstly, the dark blue matches the colour of the Space Marine's banner and armour. Secondly, blue is a calming colour and invites collaboration. Thirdly, it is a primary colour that contrasts well with the red and yellow of the other pages. 
+
+Each Legion Article's colour scheme is designed to mimic the armour colours of the Legion it discusses. The primary colour of the armour plates is the background, and the detail colour of the edging is the colour of the text and borders. That said, some changes have been made for increased colour contrast. A full list is below:
+Traitor Legions:
+
+Emperor's Children - dark purple background with white text. The Emperor's Children traditionally use gold edging, but this offers insufficient contrast.
+
+Iron Warriors - a light grey background with black text and yellow borders. Since this is quite plain, yellow and black hazard stripes have been applied to the upper corners of the quick facts and discussion text boxes, as this is the Iron Warriors' one concession to style. [This CSS Tricks article ](https://css-tricks.com/stripes-css/) and [this Youtube video](https://www.youtube.com/watch?v=4kWHW7da4U8) were used to apply hazard stripes to the text boxes.
+
+Night Lords - dark blue background and white text. The Night Lords traditionally use steel-grey edging and a forked lightning effect in light blue, but grey on dark blue and light blue on dark blue provided insufficient contrast.
+
+World Eaters - white background and dark blue text. No changes, as sufficient contrast is provided.
+
+Death Guard - Off-white background and dark green text. No changes, as sufficient contrast is provided.
+
+Thousand Sons - Dark red background and yellow text. The Thousand Sons traditionally use a bright red colour with gold edging, but a bright red background and gold text offered insufficient contrast, so this was changed to a darker red background and yellow text.
+
+Sons of Horus - Dark sea-green background and white text. The Sons of Horus traditonally use a dark sea-green colour with black edging, but this offered insufficient contrast, so the text was changed to white, though black borders were retained.
+
+Word Bearers - dark red background and white text. The Word Bearers traditonally use a dark red colour with silver-grey edging. Silver text did offer good contrast, but this was changed to white to provide increased contrast. 
+
+Alpha Legion - dark blue/turquoise background and white text. The Alpha Legion traditionally use a lighter turquoise blue colour and silver edging, but this offered insufficient contrast. 
+
+Loyalist Legions:
+Dark Angels - dark grey background and white text. The Dark Angels tradtionally use a flat black colour with silver edging. This looked nice, but white text offered increased contrast. The black background also felt quite intimidating as the colour of the first article, so it was changed to a softer dark grey.
+
+White Scars- white background and red text. The White Scars tradtionally use a brighter red edging, but this offered insufficient contrast. 
+
+Wolves of Fenris - dark grey background and bone-coloured text. The Wolves use a dark grey colour and bone-coloured edging, as well as bone charms attached to their armour. The bone colour is quite close to white, so there is good contrast.
+
+Imperial Fists - bright yellow background and black text. I considered darkening off the yellow background, but this offered insufficient contrast with the black text. The overall effect is quite striking. 
+
+Blood Angels - dark red background and white text. Initially, silver was used for the text, but this offered insufficient contrast as it is more of a light grey. Traditional black edging is used for the borders. 
+
+Iron Hands - light grey background and black text. The Iron Hands traditionally use a dark steel grey, with details in black and white. A dark grey with white text scheme was used, but this offered insufficient contrast, so I decided on a light grey colour with black text. 
+
+Ultramarines - dark blue background and gold text. This offers good contrast.
+
+Salamanders - dark green background and yellow text. Initially, orange text was used to mimic the Salamanders flame decals, but this offered insufficient contrast, so it was changed to yellow.
+
+Raven Guard - black background and white text. As with the Dark Angels, this colour scheme could appear intimidating, but since this is the last article, I deemed this okay. It also matches the Raven Guard colour scheme perfectly. 
+
+### Image galleries
+
+I decided to use two image galleries - a main and a preview. This was because, while all of the images were of a suitable quality, not all had the same proportions. Those images of legionaries with features that protrude above their helmets (helmet crests, spotlights, turbine jet packs, spikes) have the same proportions as those images of legionaries with such protrusions, so those legionaries with protrusions appear shrunken. Those 'shrunken' images were moved to the preview galleries where they could still be present, but not disrupt the flow of the full image gallery. The reverse is true of the Emperor's Children article, where the larger images are in the preview gallery and the smaller images are in the main gallery, since there were more smaller images than larger images, and I wanted to include as many images as possible. 
+
+When inserting the images into the image galleries, I used a consistent ordering system. Images of legionaries in MkII armour (identified by the segmented, overlapping armour plates) were first, then images of legionaries in MkIII armour (identified by grilled helmets and codpieces), then images of legionaries in MkIV armour (identified by combined leg and knee armour), then images of breachers (identified by shields), then images of terminators (identified by bulky armour that encloses the head), then images of basic Contemptor Dreadnoughts (identified by having either 1 or 2 claw arms), then images of Contemptor-Mortis Dreadnoughts (identified by 2 gun arms), then specialised Dreadnoughts (Leviathan and Deredeo Dreadnoughts, identified by their bulkiness and general difference). 
 
 This ordering system was altered slightly for the images of Night Lords legionaries, as the first five images are all of legionaries from a single group, so it made sense to keep them together. 
 
@@ -116,15 +206,39 @@ The system was also altered in the case of the Death Guard preview gallery, wher
 
 For several Legions - the Dark Angels, White Scars, Wolves of Fenris, Blood Angels and Thousand Sons - there were few images available. I suspect this is because the codexes (the source material containing the images) discussing these Legions have not been available for very long, and hence the Warhammer community hasn't been able to acquire, digitize and post a large number of images to the Fandom articles. Rather than use sub-standard images, I decided to use a 4th-wall break, explaining the lack of images from the perspective of the historian writing the articles using a feasible, in-universe explanation. My mentor assures me that this is perfectly acceptable. 
 
+### Internal Navigation
+
 The two content pages contain a considerable amount of internal navigation. The idea behind this is to give the user options when using the site, and to save them having to scroll through the entire page, which ended up being quite long. From the top of each content page, users can jump directly to each Legion article. At the top of each Legion article, either side of the heading, are icons that jump to the last and next Legion article, and at the bottom of each article is an icon that jumps to the next article. At the bottom of the last article are two icons. The single up arrow jumps to the previous article, and the double up arrow jumps to the introductory text. This allows the user to navigate a long page with only a few clicks or taps and a mimimum of scrolling. 
 
-### Accessibility
+At the bottom of each contact page is a call to action to go to the contact page, with a request for collaboration or merely to start a conversation with me, a fellow Warhammer fan. 
+
+## Accessibility
 
 I have taken pains to ensure that all images have either an aria-label or aria-labelledby attribute. Most images have been given an aria-labelledby attribute, since the images are present in both the full image gallery and the preview gallery, and hence the images in the preview gallery can use the description in the full image gallery. 
 
 Those images that only exist in the preview gallery have been given an aria-label attribute, as it did not make sense to have image descriptions in the preview gallery when, in many cases, they would be duplicated in the full image gallery. 
 
-### Technologies
+## Future work
+
+Since this project only uses HTML and CSS, a working contact form that actually allows a user to send me a message would be an excellent feature to add.
+
+Per the wireframes for the content pages, buttons that scroll the images in the image galleries back and forth were originally envisioned. However, research into this showed that this was only possible using JavaScript, such as [in this tutorial](https://www.youtube.com/watch?v=82f07Xf0xgE). Once I have learned JavaScript, buttons may be added. 
+
+The Warhammer 40k Horus Heresy setting includes background information on many other organisations, such as the Titans Legions, the Mechanicum and the Imperial Household. These should proves excellent additions to the site. 
+
+When locating the images of legionaries for the image galleries, many images of vehicles were located. These proved to be quite small in comparison to the images of legionaries, so they were omitted. A good future aim would be to find a way to add these into the image galleries, possibly into a separate image gallery and increase their size. 
+
+Should I deploy and run the site in a meaningful way by expanding the content and inviting collaboration from others, it would be a good idea to create dedicated social media accounts for the project and its collaborators. These would be accessed by updating the social media links in the footers of each page so that they open these accounts in new tabs.
+
+## Bugs
+
+A small bug was noted early in development - When navigating to the traitor.html and loyalist.html pages, ocassionally the scroll-bar on the right-hand-side of the screen does not load, though scrolling is still possible via mouse-wheel. Since the scroll-bar takes up viewport width, the positioning and dimensions of the content of the pages is adjusted. The lack of the scroll-bar and subsequent adjustment is especially apparent when navigating from traitor.html to loyalist.html and vice-versa, as they have essentially the same layout - the elements appear to jerk to the right. This is jarring. As of 3/2/2022, the cause of this is unknown, possibly related to internet connection speeds and browser load times - at the time, the site was importing many placeholder images. As of the end of the development, this bug has not been encountered. As the site is now pulling in fewer images and these from the repository, it is likely that the large number of placeholder images were slowing down the load times. 
+
+When adding the images, it was noted that not all of the images are of the same dimensions. This is probably due to the images being acquired from different sources. Broadly speaking, the images of legionaries come in two different sizes - roughly 120px wide by 200px high, and 135px wide by 200px high, with a pixel or two difference. When viewed in the image galleries, this was jarring. This was eventually solved by cutting down the number of images and only using those of a consistent height and width, and possessing a white background. 
+
+The commits made from the 12th of February to the 19th of February may be confusing, as I was constantly adding and removing images. Those that were removed were considered unsuitable. Hence, the flow of the project's development may appear dirupted around this point, though I was working around variable image qualities and a lot of a consideration was needed. 
+
+## Technologies
 
 [Github](https://github.com/) was used to host the project repository
 
@@ -141,17 +255,65 @@ Those images that only exist in the preview gallery have been given an aria-labe
 The Lighthouse function of the Chrome Developer Tools was used for testing
 
 
-### Future work
+  
 
-Since this project only uses HTML and CSS, a working contact form that actually allows a user to send me a message would be an excellent feature to add
+## Deployment
 
-Per the wireframes for the content pages, buttons that scroll the images in the image galleries back and forth were originally envisioned. However, research into this showed that this was only possible using JavaScript, such as [in this tutorial](https://www.youtube.com/watch?v=82f07Xf0xgE). Once I have learned JavaScript, buttons may be added. 
+### How this project was deployed
 
-The Warhammer 40k Horus Heresy setting includes background information on many other organisations, such as the Titans Legions, the Mechanicum and the Imperial Household. These should proves excellent additions to the site. 
+This project was deployed using Github Pages as follows:
 
-Should I deploy and run the site in a meaningful way by expanding the content and inviting collaboration from others, it would be a good idea to create dedicated social media accounts for the project and its collaborators. These would be accessed by updating the social media links in the footers of each page so that they open these accounts in new tabs.  
+1. I logged in to Github.
+2. I navigated to my profile page.
+3. Under the Repositories tab, I located this project's repository.
+4. Under the Settings tab, I clicked Pages.
+5. Under Source, I opened the drop-down menu that by default displays None, and selected the main branch.
+6. A drop-down menu that by default displays /root was not modified.
+7. I then clicked Save.
+8. I then waited for a minute to allow Github Pages to build the website.
+9. I then refreshed the page and then right-clicked the link displayed in the green box to bring up options and then selected Open Link in New Tab, so that I did not navigate away from the repository. 
 
-## Usage
+### How other users can work on this project
+
+Other users may access this project using Gitpod by following the steps below: 
+
+1. Install the Google Chrome or Firefox browser
+2. Navigate to Github
+3. Log into GitHub or create a Github account, if you don't already have one.
+4. Navigate to my Github profile - [Adam Boley](https://github.com/AdamBoley).
+5. Under the Repositories tab, locate the repository named "The-Space-Marine-Legions".
+6. Click on the repository to view it.  
+
+Users may then undertake several courses of action. 
+1. They may directly access the code from my repository.
+2. They may clone it as a template (I have enabled this).
+3. They may choose to run the project locally on their computer.
+4. Once the contact form has been implemented, users may use this to initiate a conversation with me to request collaboration. If I accept, I will add that user as a collaborator, and then they may fork this repository to their own accounts. 
+
+#### Direct access
+
+Users may directly access the code by following the steps below:
+1. Install the Chrome Gitpod extension or Firefox Gitpod extension, depending on the user's choice of browser
+2. On the project repository, click the green Gitpod button
+3. Wait several minutes for Gitpod to build the workspace
+
+#### Template
+
+I have set this repository as a template, and users may clone this repository using this. This creates a repository in their own Github account, and they may access it freely. This may be done by following the steps below:
+1. From the repository page (see above), click the button named "Use this template".
+2. Since this is technically a new repository, the user may give it a new name
+3. Optionally, the user may give the project a description
+4. The user may set the repository at either Public or Private
+5. The user may also opt to include all branches, though in this case, this option is redundant, since I created the project using only one branch. 
+6. Click the green button at the bottom to create a new repository from this template
+
+#### Local clone
+
+
+#### Collaboration
+
+
+### Gitpod
 
 This repository can be cloned and edited in Gitpod out of the box - there are no external libraries or dependencies required. A preview browser can be opend by running the server. To do this, type in the terminal:
 
@@ -161,13 +323,7 @@ A blue button should appear to click: _Make Public_,
 
 Another blue button should appear to click: _Open Browser_.
 
-## Bugs
-
-A small bug was noted early in development - When navigating to the traitor.html and loyalist.html pages, ocassionally the scroll-bar on the right-hand-side of the screen does not load, though scrolling is still possible via mouse-wheel. Since the scroll-bar takes up viewport width, the positioning and dimensions of the content of the pages is adjusted. The lack of the scroll-bar and subsequent adjustment is especially apparent when navigating from traitor.html to loyalist.html and vice-versa, as they have essentially the same layout - the elements appear to jerk to the right. This is jarring. As of 3/2/2022, the cause of this is unknown, possibly related to internet connection speeds and browser load times - at the time, the site was importing many placeholder images. As of the end of the development, this bug has not been encountered. As the site is now pulling in fewer images and these from the repository, it is likely that the large number of placeholder images were slowing down the load times. 
-
-When adding the images, it was noted that not all of the images are of the same dimensions. This is probably due to the images being acquired from different sources. Broadly speaking, the images of legionaries come in two different sizes - roughly 120px wide by 200px high, and 135px wide by 200px high, with a pixel or two difference. When viewed in the image galleries, this was jarring. This was eventually solved by cutting down the number of images and only using those of a consistent height and width, and possessing a white background. 
-
-The commits made from the 12th of February to the 19th of February may be confusing, as I was constantly adding and removing images. Those that were removed were considered unsuitable. Hence, the flow of the project's development may appear dirupted around this point, though I was working around variable image qualities and a lot of a consideration was needed.  
+ 
 
 ## Testing
 
@@ -180,6 +336,12 @@ Navigation to the various pages of the site is easily accomplished by means of t
 At the bottom of the content pages is a call to action to visit the contact page. 
 
 Internal navigation within the content pages is easily accomplished via the internal links to each of the Legion articles on the content pages. In addition, each Legion article has a downward arrow that, when clicked, brings the user to the next article down. 
+
+### Testing functionality
+
+### Testing on different devices
+
+### Testing code
 
 W3C HTML validator
 
