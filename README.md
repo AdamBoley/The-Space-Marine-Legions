@@ -262,16 +262,6 @@ The system was also altered in the case of the Death Guard preview gallery, wher
 
 For several Legions - the Dark Angels, White Scars, Wolves of Fenris, Blood Angels and Thousand Sons - there were few images available. I suspect this is because the codexes (the source material containing the images) discussing these Legions have not been available for very long, and hence the Warhammer community hasn't been able to acquire, digitize and post a large number of images to the Fandom articles. Rather than use sub-standard images, I decided to use a 4th-wall break, explaining the lack of images from the perspective of the historian writing the articles using a feasible, in-universe explanation. My mentor assures me that this is perfectly acceptable. 
 
-## **Future work**
-
-Since this project only uses HTML and CSS, a working contact form that actually allows a user to send me a message would be an excellent feature to add.
-
-Per the wireframes for the content pages, buttons that scroll the images in the image galleries back and forth were originally envisioned. However, research into this showed that this was only possible using JavaScript, such as [in this tutorial](https://www.youtube.com/watch?v=82f07Xf0xgE). Once I have learned JavaScript, buttons may be added. 
-
-The Warhammer 40k Horus Heresy setting includes background information on many other organisations, such as the Titans Legions, the Mechanicum and the Imperial Household. These should proves excellent additions to the site. 
-
-When locating the images of legionaries for the image galleries, many images of vehicles were located. These proved to be quite small in comparison to the images of legionaries, so they were omitted. A good future aim would be to find a way to add these into the image galleries, possibly into a separate image gallery and increase their size. 
-
 Should I deploy and run the site in a meaningful way by expanding the content and inviting collaboration from others, it would be a good idea to create dedicated social media accounts for the project and its collaborators. These would be accessed by updating the social media links in the footers of each page so that they open these accounts in new tabs.
 
 ## **Bugs**
@@ -281,6 +271,16 @@ A small bug was noted early in development - When navigating to the traitor.html
 When adding the images, it was noted that not all of the images are of the same dimensions. This is probably due to the images being acquired from different sources. Broadly speaking, the images of legionaries come in two different sizes - roughly 120px wide by 200px high, and 135px wide by 200px high, with a pixel or two difference. When viewed in the image galleries, this was jarring. This was eventually solved by cutting down the number of images and only using those of a consistent height and width, and possessing a white background. 
 
 The commits made from the 12th of February to the 19th of February may be confusing, as I was constantly adding and removing images. Those that were removed were considered unsuitable. Hence, the flow of the project's development may appear disrupted around this point, though I was working around variable image qualities and a lot of a consideration about what images were suitable was needed. 
+
+## **Future work**
+
+Since this project only uses HTML and CSS, a working contact form that actually allows a user to send me a message would be an excellent feature to add.
+
+Per the wireframes for the content pages, buttons that scroll the images in the image galleries back and forth were originally envisioned. However, research into this showed that this was only possible using JavaScript, such as [in this tutorial](https://www.youtube.com/watch?v=82f07Xf0xgE). Once I have learned JavaScript, buttons may be added. 
+
+The Warhammer 40k Horus Heresy setting includes background information on many other organisations, such as the Titans Legions, the Mechanicum and the Imperial Household. These should proves excellent additions to the site. 
+
+When locating the images of legionaries for the image galleries, many images of vehicles were located. These proved to be quite small in comparison to the images of legionaries, so they were omitted. A good future aim would be to find a way to add these into the image galleries, possibly into a separate image gallery and increase their size. 
 
 ## **Technologies**
 
@@ -319,8 +319,8 @@ This project was deployed using Github Pages as follows:
 
 Other users may access this project using Gitpod by following the steps below: 
 
-1. Install the Google Chrome or Firefox browser
-2. Navigate to Github
+1. Install the Google Chrome or Firefox browser.
+2. Navigate to Github.
 3. Log into GitHub or create a Github account, if you don't already have one.
 4. Navigate to my Github profile - [Adam Boley](https://github.com/AdamBoley).
 5. Under the Repositories tab, locate the repository named "The-Space-Marine-Legions".
@@ -335,17 +335,17 @@ Users may then undertake several courses of action.
 #### **Direct access**
 
 Users may directly access the code by following the steps below:
-1. Install the Chrome Gitpod extension or Firefox Gitpod extension, depending on the user's choice of browser
-2. On the project repository, click the green Gitpod button
-3. Wait several minutes for Gitpod to build the workspace
+1. Install the Chrome Gitpod extension or Firefox Gitpod extension, depending on the user's choice of browser.
+2. On the project repository, click the green Gitpod button.
+3. Wait several minutes for Gitpod to build the workspace.
 
 #### **Template**
 
 I have set this repository as a template, and users may clone this repository using this. This creates a repository in their own Github account, and they may access it freely. This may be done by following the steps below:
 1. From the repository page (see above), click the button named "Use this template".
-2. Since this is technically a new repository, the user may give it a new name
-3. Optionally, the user may give the project a description
-4. The user may set the repository at either Public or Private
+2. Since this is technically a new repository, the user may give it a new name.
+3. Optionally, the user may give the project a description.
+4. The user may set the repository at either Public or Private.
 5. The user may also opt to include all branches, though in this case, this option is redundant, since I created the project using only one branch. 
 6. Click the green button at the bottom to create a new repository from this template.
 
@@ -375,7 +375,7 @@ Alternatively, users may download the repository's files as a compressed ZIP fol
 Users who have requested collaboration with me will be add as contributors to the project. Once this is done, they may fork the repository to their own accounts by following the steps below:
 1. On the repository page, click the "Fork" button in the upper right-hand corner.
 2. This clones the repository and creates a repository with the same name, files and file structure as the original. 
-3. Users may edit the project files by either cloning the repository to their personal computer and using a local IDE, or by using Gitpod (see above for directions for both options)
+3. Users may edit the project files by either cloning the repository to their personal computer and using a local IDE, or by using Gitpod (see above for directions for both options).
 4. Once changes have been made, users may push them to the original repository (mine) by staging, committing and pushing the changes, and then creating a Pull Request. I will then examine the changes and either approve or deny the changes. 
 
 #### **Development preview browser**
@@ -383,9 +383,9 @@ Users who have requested collaboration with me will be add as contributors to th
 If the user is using Gitpod, changes can be previewed before committing them by opening a preview browser, which mimics how the website would look when deployed. 
 
 Since the project just consists of HTML and CSS, there are no external libraries or dependencies required. A preview browser can be opened by running the server. This can be done by following the steps below: 
-1. Open a new terminal by clicking the hamburger icon, going to Terminal and selecting New Terminal, if a terminal isn't open already
+1. Open a new terminal by clicking the hamburger icon, going to Terminal and selecting New Terminal, if a terminal isn't open already.
 2. Ensure changes are saved by either manually saving or using the keyboard shortcut CTRL + S. 
-3. Type in the terminal <code>python3 -m http.server</code> and press Enter
+3. Type in the terminal <code>python3 -m http.server</code> and press Enter.
 4. A blue box should appear. Click the Open Browser button. 
 5. A new tab will open displaying a preview of the website. 
 6. Should further changes be made to the code, save them and then hard-refresh the preview browser tab by the keyboard shortcut CTRL + R. The preview will update with the changes. 
