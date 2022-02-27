@@ -6,7 +6,6 @@
 html, body {
     margin: 0;
     height: 100%;
-    
 }
 
 body p, a, li, span {
@@ -29,11 +28,9 @@ a {
     height: 70px;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-
 }
 
 .header {
-    background-color: rgba(0, 0, 0, 0);
     width: 700px;
     height: 75px;
     float: left;
@@ -43,7 +40,6 @@ a {
     text-decoration: none;
     color: inherit;
     vertical-align: middle;
-    
 }
 
 .header a h1 {
@@ -73,8 +69,7 @@ a {
 
 .nav a {
     text-decoration: none;
-    padding: 5px 10px;
-     
+    padding: 5px 10px; 
 }
 
 .nav-traitor {
@@ -95,7 +90,7 @@ a {
     font-weight: 700;
 }
 
-.nav a:hover {
+.nav li:hover {
     background-color: white;
     color: black;
 }
@@ -146,8 +141,6 @@ footer div span {
 
 /*General Media Queries*/
 
-
-
 @media screen and (max-width: 1270px) {
     
     .header-background {
@@ -166,7 +159,6 @@ footer div span {
 
     .header-background {
         width: 100vw;
-
     }
 
     .header {
@@ -189,9 +181,6 @@ footer div span {
         margin-top: 20px;
     }
 }
-
-
-
 
 /*Homepage style rules*/
 
@@ -258,7 +247,6 @@ footer div span {
 #loyalist {
     background-color: rgba(255, 255, 0, 0.7);
     color: rgb(0, 0, 0); 
-    
 }
 
 #loyalist:hover {
@@ -345,7 +333,6 @@ footer div span {
     .button {
         height: 120px;
     }
-    
 }
 
 @media screen and (max-width: 320px) {
@@ -372,7 +359,6 @@ footer div span {
         margin: 0;
     }
 }
-
 
 /*Traitor and Loyalist content page style rules*/
 
@@ -413,7 +399,6 @@ h2 {
     border-radius: 15px;
     padding: 20px;
     text-align: center;
-    
 }
 
 #loyalist-intro {
@@ -427,7 +412,6 @@ h2 {
     border-radius: 15px;
     padding: 20px;
     text-align: center;
-    
 }
 
 #loyalist-intro p , #traitor-intro p {
@@ -525,22 +509,6 @@ h2 {
 .legion-article div {
     padding: 10px;
 }
-
-/*::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-track {
-    background: grey;
-}
-
-::-webkit-scrollbar-thumb {
-    background: black;
-
-::-webkit-scrollbar-thumn:hover {
-
-}
-}*/
 
 .wrapper {
     width: 90%;
@@ -709,6 +677,8 @@ h2 {
     border: 2px solid #93b9df;
 }
 
+/*World Eaters Legion Article*/
+
 #world-eaters {
     background-color: #f5f5f5;
     color: darkblue;
@@ -717,6 +687,8 @@ h2 {
 .world-eaters-div {
     border: 2px solid darkblue;
 }
+
+/*Death Guard Legion Article*/
 
 #death-guard {
     background-color: whitesmoke;
@@ -727,6 +699,8 @@ h2 {
     border: 2px solid #86a17d;
 }
 
+/*Thousand Sons Legion Article*/
+
 #thousand-sons {
     background-color: #9b0d00;
     color: yellow;
@@ -735,6 +709,8 @@ h2 {
 .thousand-sons-div {
     border: 2px solid gold;
 }
+
+/*Sons of Horus Legion Article*/
 
 #sons-of-horus {
     background-color: rgb(48, 103, 92);
@@ -745,6 +721,8 @@ h2 {
     border: 2px solid black;
 }
 
+/*Word Bearers Legion Article*/
+
 #word-bearers {
     background-color: #8b0000;
     color: rgb(255, 255, 255);
@@ -754,6 +732,8 @@ h2 {
     border: 2px solid silver;
 }
 
+/*Alpha Legion Legion Article*/
+
 #alpha-legion {
     background-color: #064958;
     color: rgb(255, 255, 255)
@@ -762,6 +742,8 @@ h2 {
 .alpha-legion-div {
     border: 2px solid silver;
 }
+
+/*Dark Angels Legion Article*/
 
 #dark-angels {
     margin: 5vh auto 0 auto;
@@ -773,6 +755,8 @@ h2 {
     border: 2px solid whitesmoke;
 }
 
+/*White Scars Legion Article*/
+
 #white-scars {
     background-color: white;
     color: #cc1100;
@@ -781,6 +765,8 @@ h2 {
 .white-scars-div {
     border: 2px solid #cc1100;
 }
+
+/*Wolves of Fenris Legion Article*/
 
 #wolves-of-fenris {
     background-color: rgb(70, 70, 70);
@@ -791,6 +777,8 @@ h2 {
     border: 2px solid #e2dbca;
 }
 
+/*Imperial Fists Legion Article*/
+
 #imperial-fists {
     background-color: yellow;
     color: black;
@@ -799,6 +787,8 @@ h2 {
 .imperial-fists-div {
     border: 2px solid black;
 }
+
+/*Blood Angels Legion Article*/
 
 #blood-angels {
     background-color: #800000;
@@ -809,6 +799,8 @@ h2 {
     border: 2px solid black;
 }
 
+/*iron Hands Legion Article*/
+
 #iron-hands {
     background-color: lightgray;
     color: black;
@@ -817,6 +809,8 @@ h2 {
 .iron-hands-div {
     border: 2px solid black;
 }
+
+/*Ultramarines Legion Article*/
 
 #ultramarines {
     background-color: #003b8d;
@@ -827,6 +821,8 @@ h2 {
     border: 2px solid black;
 }
 
+/*Salamanders Legion Article*/
+
 #salamanders {
     background-color: rgb(25, 95, 25);
     color: yellow;
@@ -836,6 +832,8 @@ h2 {
     border: 2px solid black;
 }
 
+/*Raven Guard Legion Article*/
+
 #raven-guard {
     background-color: black;
     color: whitesmoke;
@@ -844,6 +842,8 @@ h2 {
 .raven-guard-div {
     border: 2px solid whitesmoke;
 }
+
+/*End specific Legion Article styling*/
 
 .contact-outer {
     width: 100%;
@@ -1058,7 +1058,7 @@ h2 {
     background-size: cover;
     background-attachment: fixed;
     background-position: 85%;
-    overflow: hidden;
+    overflow: auto;
 }
 
 #contact-background {
@@ -1128,7 +1128,6 @@ fieldset {
 
     fieldset {
         width: 90%;
-        
     }
 
     textarea {
@@ -1153,13 +1152,6 @@ fieldset {
         height: auto;
     }
 }
-
-
-
-@media screen and (max-width: 885px) {
-    
-
-}    
 
 @media screen and (max-width: 340px) {
     .form-options {
