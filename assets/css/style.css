@@ -1096,7 +1096,7 @@ fieldset {
 
 .form-options input:nth-child(2) {
     float: right;
-    background-color: red;
+    background-color: black;
     color: white;
 }
 

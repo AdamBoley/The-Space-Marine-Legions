@@ -481,22 +481,22 @@ Index.html:
 - SEO: 100%
 
 Traitors.html:
-- Performance:
-- Accessibility:
-- Best Practices:
-- SEO:
+- Performance: 95%
+- Accessibility: 98%
+- Best Practices: 100%
+- SEO: 100%
 
 Loyalists.html:
-- Performance:
-- Accessibility:
-- Best Practices:
-- SEO:
+- Performance: 95%
+- Accessibility: 98%
+- Best Practices: 100%
+- SEO: 100%
 
 Contact.html:
-- Performance:
-- Accessibility:
-- Best Practices:
-- SEO:
+- Performance: 99%
+- Accessibility: 100%
+- Best Practices: 100%
+- SEO: 100%
 
 
 ## **Credits**
