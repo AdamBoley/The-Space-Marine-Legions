@@ -583,21 +583,12 @@ h2 {
     font-size: smaller;
     width: 300px;
     height: 100px;                      
-    word-break: break-word;
+    word-break: normal;
     white-space: normal;
 }
 
 .image-container-white img {
     margin-left: 30px
-}
-
-.historians-note {
-    font-size: smaller;
-    width: 90%;
-    height: 20px;                      
-    word-break: break-word;
-    white-space: normal;
-    color: black;
 }
 
 /*Emperor's Children Legion Article*/

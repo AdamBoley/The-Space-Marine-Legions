@@ -453,11 +453,51 @@ I also have access to two iPad tablets. The deployed project works mostly as int
 
 ### **Testing code**
 
-W3C HTML validator
+#### HTML validation
 
-Jigsaw CSS validator
+Note: At the time of testing (28/02/2022), the W3C HTML validator was unavailable, with all attempts to access it resulting in a 503 error. A Slack post was made by Jim Morrell at 10.23AM on the 28th in the Announcements channel confirming this. As the submission deadline was approaching, I decided to use an alternative validation service - 
+[Free Formatter](https://www.freeformatter.com/html-validator.html). The results are recorded below:
 
-Lighthouse performance testing
+Index.html - No errors were found, the document is valid and conforms to best practices and standards.
+
+Traitors.html - Some errors were initially found, relating to misspelled attribute names and stray element tags. Other errors were found relating to overly long p elements that contained unordered lists. The unordered lists were removed from the p elements. Once these errors were cleaned up, the document was found to be valid and conforming to best practices and standards. 
+
+Loyalists.html - Again, some errors were initially found, relating to misspelled attribute names and stray element tags. Other errors were found relating to overly long p elements that contained unordered lists. The unordered lists were removed from the p elements. Once these errors were cleaned up, the document was found to be valid and conforming to best practices and standards.  
+
+Contact.html - No errors were found, the document is valid and conforms to best practices and standards. 
+
+#### Jigsaw CSS validator
+
+Note: In contrast to the W3C HTML validator, the Jigsaw CSS validator was working at time of testing. The result is below:
+
+Styles.css - No errors were found, though 4 warnings were detected. Two related to the imported fonts, which are classed as imported style sheets due to the @import tag. The other two related to the break-word value applied to the style rules on lines 586 and 598, as the break-word value is deprecated. The [MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/word-break) on the word-break property lists word-break as a valid value, though Internet Explorer does not support it. The value was hence changed to normal, which showed no errors when tested using the preview browser. The validator showed no errors with thos correction. 
+
+#### Lighthouse performance testing
+
+Index.html:
+- Performance: 99%
+- Accessibility: 97%
+- Best Practices: 92%
+- SEO: 100%
+
+Traitors.html:
+- Performance:
+- Accessibility:
+- Best Practices:
+- SEO:
+
+Loyalists.html:
+- Performance:
+- Accessibility:
+- Best Practices:
+- SEO:
+
+Contact.html:
+- Performance:
+- Accessibility:
+- Best Practices:
+- SEO:
+
 
 ## **Credits**
 
