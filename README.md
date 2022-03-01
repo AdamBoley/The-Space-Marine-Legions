@@ -11,12 +11,15 @@
 - [Audience](#audience) 
 - [User Stories](#user-stories)
 - [Wireframes](#wireframes)
+    - [Initial Wireframes](#initial-wireframes)
+    - [Final Wireframes](#final-wireframes)
 - [Function](#function)
 - [Features](#features)
     - [Header](#header)
     - [Footer](#footer)
     - [Unified Colour Scheme](#unified-colour-scheme)
     - [Introductory text](#introductory-text)
+    - [User feedback](#user-feedback)
     - [Internal Navigation](#internal-navigation)
     - [Legion Articles](#legion-articles)
         - [Quick Facts](#quick-facts)
@@ -76,9 +79,9 @@ This website is intended to provide users with with a distillation of my knowled
 
 Other sites exist to do this - namely [the Warhammer 40k fandom wiki](https://warhammer40k.fandom.com/wiki/Warhammer_40k_Wiki) and [Lexicanum](https://wh40k.lexicanum.com/wiki/Main_Page)
 
-That said, I personally dislike using these sites. The Lexicanum site has a boring and uninteresting colour palette of grey and black. The Fandom site is more interesting, especially with the striking background image. However, I find it suffers from bloat - the information is not condensed as you might expect from a wikia site, and is often copy-pasted directly from source material. Neither makes for an especially enjoyable reading experience - with Lexicanum, the user is forced to endure the bland colours, and with the Fandom site, the user to forced to trawl through a seemingly endless screed of often-contradictory information. 
+That said, I personally dislike using these sites unless absolutely necessary. The Lexicanum site has a boring and uninteresting colour palette of grey and black. The Fandom site is more interesting, especially with the striking background image. However, I find it suffers from bloat - the information is not condensed as you might expect from a wikia site, and is often copied and pasted directly from source material. Neither makes for an especially enjoyable reading experience - with Lexicanum, the user is forced to endure the bland colours, and with the Fandom site, the user to forced to trawl through a seemingly endless screed of often-contradictory information. 
 
-This website aims to fix that. It will make good use of the fantastically detailed artwork and will use an appealing, setting-appropriate colour palette. The content presented will be my own distillation of the source material. As I am the sole author, I can ensure that all of the information presented is correct and accurate as best as I can determine, but that it does not go into unnecessary and trivial detail. It will also be focused entirely on the Space Marine Legions, though scope exists for additional pages to be added dealing with other aspects of the Horus Heresy setting, such as in-setting history, other factions and major battles. 
+This website aims to provide and alternative to these existing options. It will make good use of the fantastically detailed artwork and will use an appealing, setting-appropriate colour palette. The content presented will be my own distillation of the source material. As I am the sole author, I can ensure that all of the information presented is correct and accurate as best as I can determine, but that it does not go into unnecessary and trivial detail. It will also be focused entirely on the Space Marine Legions, though scope exists for additional pages to be added dealing with other aspects of the Horus Heresy setting, such as in-setting history, other factions and major battles. 
 
 The site consists of 4 pages - an index landing page, a contact page, and two content pages, one for the Loyalist Legions and the other for the Traitor Legions.
 
@@ -124,10 +127,10 @@ Contact.png - the wireframe for contact.html, the contact form:<br>
 
 ### Final Wireframes
 
-When the project was completed, I held a final planning session with Ronan McLelland, and he indicated that it would be a good idea to create new wireframes to represent the final design choices. This indicates that the initial design as represented above was closely adhered to, with some tinkering around the edges. These are below. 
+When the project was completed, I held a final planning session with Ronan McLelland, and he indicated that it would be a good idea to create new wireframes to represent the final design choices. This indicates that the initial design as represented above was closely adhered to, with some tinkering around the edges. These are below: 
 
 Homepage:<br>
-![Homepage](assets/wireframes/final/homepage-v2.png)
+![Homepage V2](assets/wireframes/final/homepage-v2.png)
 
 Content page:<br>
 ![Content-v2](assets/wireframes/final/content-v2.png)
@@ -136,7 +139,7 @@ The wireframe for the traitor and loyalist pages with the content scrolled up to
 ![Content-scrolled-up-v2](assets/wireframes/final/content-scrolled-up-v2.png)
 
 Contact page:<br>
-![Contact](assets/wireframes/final/contact-v2.png)
+![Contact V2](assets/wireframes/final/contact-v2.png)
 
 ## **Function**
 
@@ -167,7 +170,7 @@ See below for screenshots of the final pages:
 Each of the four pages features a header. The header is marked out by a 50% transparent black background, which manifests as a dark strip that provides good contrast with the heading and navigation bar, but also allows the user to see the top of the background image. The header follows expected design convention, with a title on the left that can be clicked to return to the homepage, and a navigation bar on the right that users may used to navigate to each of the pages.
 The consistent, simple and intuitive nature of the header allows the user to trust the site. 
 
-See below for a screenshot of the header, in this case from the loyalists.html: page
+See below for a screenshot of the header, in this case from the loyalists.html page:
 
 ![Loyalist header](assets/images/screenshots/header-screenshot.PNG)
 
@@ -181,7 +184,7 @@ See below for a screenshot of the footer:
 
 ### **Unified colour scheme**
 
-Each page of the site, beyond the homepage, was given a colour - red for the Traitor Legions, yellow for the Loyalist Legions, and blue for the contact page. This design choice is justified below, but the idea was to simplify the user experience of the home page. Since there are 5 buttons, two of which seem to link to the Traitor Legions and another two of which seem to link to the Loyalist Legions, all of which are in relatively close proximity on a desktop (less so on a smartphone), a user may become confused, thinking that the two buttons each go to different places. The unified colour scheme is designed to prevent this - by making the two buttons that go to the same place the same colour, a user can be confident that they are not missing out on content and can intuitively understand the structure of the site. 
+Each page of the site, beyond the homepage, was given a colour - red for the Traitor Legions, yellow for the Loyalist Legions, and blue for the contact page. This design choice is justified below, but the idea was to simplify the user experience of the home page. Since there are 5 buttons, two of which seem to link to the Traitor Legions and another two of which seem to link to the Loyalist Legions, all of which are in relatively close proximity on a desktop (less so on a smartphone or tablet), a user may become confused, thinking that the two buttons each go to different places. The unified colour scheme is designed to prevent this - by making the two buttons that go to the same place the same colour, a user can be confident that they are not missing out on content and can intuitively understand the structure of the site. 
 
 Likewise, the Contact Me call to action at the bottom of each content page is given the same blue colour as the Contact me button in the navigation bar. Again, this allows the user to be confident that both buttons link to the same page. 
 
@@ -199,6 +202,10 @@ See below for a screenshot of the introductory text of the index page:
 
 ![index introduction](assets/images/screenshots/index-introduction-screenshot.PNG)
 
+### **User feedback**
+
+An effort has been made to ensure that all clickable buttons for both page-to-page and intra-page navigation provide user feedback. This is primarily achieved by hover pseudo-class CSS selectors that turn the button white and colour the text black to indicate to the user that they are about to click a button and do something. 
+
 ### **Internal Navigation**
 
 The two content pages contain a considerable amount of internal navigation. The idea behind this is to give the user navigational options when using the site, and to save them having to scroll through the entire page, which ended up being quite long. Scrolling through the entire page takes a long time. From the top of each content page, users can jump directly to each Legion article. At the top of each Legion article, either side of the heading, are icons that jump to the last and next Legion article, and at the bottom of each article is an icon that jumps to the next article. At the bottom of the last article are two icons. The single up arrow jumps to the previous article, and the double up arrow jumps to the introductory text. This allows the user to navigate a long page with only a few clicks or taps and a mimimum of scrolling. The arrow icons are not labelled, and the direction in which they point should provide suitable visual cues to users. 
@@ -213,7 +220,7 @@ See below for a screenshot of the internal navigation for the Traitor Legions:
 
 The main content of the site are the 18 Legion Articles, each covering one of the 18 Space Marine Legions. The Traitor Legion page contains 9 Legion articles, 1 for each of the 9 Traitor Legions, and the Loyalist Legion page contains another 9 Legion articles, 1 for each of the Loyalist Legions. Each Legion article is given a different colour scheme (discussed below), corresponding to the common colour scheme of their armour. Each Legion Article contains 5 elements - a quick facts text box, a preview image gallery, two discussion text boxes and a main image gallery. The image galleries are discussed below.
 
-See below for a zoomed out screenshot of the Iron Warriors Legion article. Zooming out was necessary to obtain the screenshot as the Legion article overflows the page:
+See below for a zoomed out screenshot of the Iron Warriors Legion article. Zooming out was necessary to obtain the screenshot as the Legion article overflows the page at 100% zoom:
 
 ![Legion Article](assets/images/screenshots/legion-article-screenshot.PNG)
 
@@ -235,7 +242,7 @@ See below for a screenshot of the history text box from the Iron Warriors Legion
 
 #### **Discussion - Observations**
 
-The second discussion text box deals with the current observations of the Legion, such as doctrine, organisational model, unique units, strengths and so on, and as such is written in the present tense.  
+The second discussion text box deals with the current observations of the Legion, such as doctrine, organisational model, unique units, numerical strength and so on, and as such is written in the present tense.  
 
 See below for a screenshot of the observations text box from the Iron Warriors Legion article:
 
@@ -243,7 +250,7 @@ See below for a screenshot of the observations text box from the Iron Warriors L
 
 ### **Image Galleries** 
 
-The site as a whole contains a great many images of legionaries of the Space Marine Legions. This is intentional, as within the Warhammer community, the artwork is considered an important aspect. As a result, a considerable effort was put into finding as many appropriate images for the project as possible. Each Legion Article contains two image galleries - a preview image gallery placed next to the quick facts, and a main image gallery placed underneath the discussion text boxes. The preview gallery always contains three images where possible, and is intended to act as an initial showcase for the user, visually informing the user of the Legion's colour scheme. The main image gallery contains all of the images I was able to source, excluding those deemed inapproproiate (discussed below), with each image being given a short description, pointing out notable features of the legionary in the image.   
+The site as a whole contains a great many images of legionaries of the Space Marine Legions. This is intentional, as within the Warhammer community, the artwork is considered an important aspect. As a result, a considerable effort was put into finding as many appropriate images for the project as possible. Each Legion Article contains two image galleries - a preview image gallery placed next to the quick facts, and a main image gallery placed underneath the discussion text boxes. The preview gallery always contains three images where possible, and is intended to act as an initial showcase for the user, visually informing the user of the Legion's colour scheme before they go on to read the discussion content. The main image gallery contains all of the images I was able to source, excluding those deemed inappropriate (discussed below), with each image being given a short description, pointing out notable features of the legionary in the image.   
 
 See below for a screnshot of the preview image gallery and the full image gallery from the Iron Warriors Legion article:
 
@@ -263,7 +270,7 @@ See below for a screenshot of the contact form:
 
 I have taken pains to ensure that all images have either an aria-label or aria-labelledby attribute. Most images have been given an aria-labelledby attribute, since the images are present in both the full image gallery and the preview gallery, and hence the images in the preview gallery can use the description in the full image gallery. 
 
-During development, I came across the alternative aria-describedby attribute, which appears to be intended for longer descriptions than aria-labelledby. However, the Code Institute course material I have covered so far has only mentioned aria-label and aria-labelledby, and I am aware that screen-readers and other assistive technologies place a higher priority on aria-labelledby over aria-label. I was unable to find anything related to the priority placed on aria-describedby, so I made the decision to stick with aria-labelledby, even though I am reasonably sure that the text in the main image galleries rises to the level of a descriptions. My mentor agreed with this decision.  
+During development, I came across the alternative aria-describedby attribute, which appears to be intended for longer descriptions than aria-labelledby. However, the Code Institute course material I have covered so far has only mentioned aria-label and aria-labelledby, and I am aware that screen-readers and other assistive technologies place a higher priority on aria-labelledby over aria-label. I was unable to find anything related to the priority placed on aria-describedby, so I made the decision to stick with aria-labelledby, though it is possible that the text in the main image galleries could reasonably be called a description. My mentor agreed with this decision.  
 
 Those images that only exist in the preview gallery have been given an aria-label attribute, as it did not make sense to have image descriptions in the preview gallery when, in many cases, they would be duplicated in the full image gallery. 
 
@@ -276,7 +283,7 @@ See below for a screenshot of the project on multiple devices, obtained from [Am
 ### **Font**
 
 The Gothic A1 font-family was chosen for the text content for two reasons. First, it is a sans-serif font, and is both clean and sober. 
-Secondly, the Gothic style feastures heavily in the Warhammer setting, with Gothic architecture, a Gothic language and a generally dark, bleak theme. 
+Secondly, the Gothic style feastures heavily in the Warhammer setting, with Gothic architecture, a language called Gothic, and a generally dark, bleak theme that is the hallmark of the Gothic theme. 
 
 The Open Sans font-family was chosen for the heading elements because the bold version of the Gothic A1 font-family has an uneven design that is somewhat jarring and has a slightly comical effect. Open Sans is a clean, legible, even font. 
 
@@ -304,44 +311,46 @@ The colour schemes for the Legion pages are deliberate, as they match the predom
 The blue for the contact form and homepage introductory text was chosen for several reasons. Firstly, the dark blue matches the colour of the Space Marine's banner and armour. Secondly, blue is a calming colour and invites collaboration. Thirdly, it is a primary colour that contrasts well with the red and yellow of the other pages. 
 
 Each Legion Article's colour scheme is designed to mimic the armour colours of the Legion it discusses. The primary colour of the armour plates is the background, and the detail colour of the edging is the colour of the text and borders. That said, some changes have been made for increased colour contrast. A full list is below:
-Traitor Legions:
 
-Emperor's Children - dark purple background with white text. The Emperor's Children traditionally use gold edging, but this offers insufficient contrast.
+**Traitor Legions**:
 
-Iron Warriors - a light grey background with black text and yellow borders. Since this is quite plain, yellow and black hazard stripes have been applied to the upper corners of the quick facts and discussion text boxes, as this is the Iron Warriors' one concession to style. [This CSS Tricks article ](https://css-tricks.com/stripes-css/) and [this Youtube video](https://www.youtube.com/watch?v=4kWHW7da4U8) were used to apply hazard stripes to the text boxes.
+**Emperor's Children** - dark purple background with white text. The Emperor's Children traditionally use gold edging, but this offers insufficient contrast.
 
-Night Lords - dark blue background and white text. The Night Lords traditionally use steel-grey edging and a forked lightning effect in light blue, but grey on dark blue and light blue on dark blue provided insufficient contrast.
+**Iron Warriors** - a light grey background with black text and yellow borders. Since this is quite plain, yellow and black hazard stripes have been applied to the upper corners of the quick facts and discussion text boxes, as this is the Iron Warriors' one concession to style. [This CSS Tricks article ](https://css-tricks.com/stripes-css/) and [this Youtube video](https://www.youtube.com/watch?v=4kWHW7da4U8) were used to apply hazard stripes to the text boxes.
 
-World Eaters - white background and dark blue text. No changes, as sufficient contrast is provided.
+**Night Lords** - dark blue background and white text. The Night Lords traditionally use steel-grey edging and a forked lightning effect in light blue, but grey on dark blue and light blue on dark blue provided insufficient contrast.
 
-Death Guard - Off-white background and dark green text. No changes, as sufficient contrast is provided.
+**World Eaters** - white background and dark blue text. No changes, as sufficient contrast is provided.
 
-Thousand Sons - Dark red background and yellow text. The Thousand Sons traditionally use a bright red colour with gold edging, but a bright red background and gold text offered insufficient contrast, so this was changed to a darker red background and yellow text.
+**Death Guard** - Off-white background and dark green text. No changes, as sufficient contrast is provided.
 
-Sons of Horus - Dark sea-green background and white text. The Sons of Horus traditonally use a dark sea-green colour with black edging, but this offered insufficient contrast, so the text was changed to white, though black borders were retained.
+**Thousand Sons** - Dark red background and yellow text. The Thousand Sons traditionally use a bright red colour with gold edging, but a bright red background and gold text offered insufficient contrast, so this was changed to a darker red background and yellow text.
 
-Word Bearers - dark red background and white text. The Word Bearers traditonally use a dark red colour with silver-grey edging. Silver text did offer good contrast, but this was changed to white to provide increased contrast. 
+**Sons of Horus** - Dark sea-green background and white text. The Sons of Horus traditonally use a dark sea-green colour with black edging, but this offered insufficient contrast, so the text was changed to white, though black borders were retained.
 
-Alpha Legion - dark blue/turquoise background and white text. The Alpha Legion traditionally use a lighter turquoise blue colour and silver edging, but this offered insufficient contrast. 
+**Word Bearers** - dark red background and white text. The Word Bearers traditonally use a dark red colour with silver-grey edging. Silver text did offer good contrast, but this was changed to white to provide increased contrast. 
 
-Loyalist Legions:
-Dark Angels - dark grey background and white text. The Dark Angels tradtionally use a flat black colour with silver edging. This looked nice, but white text offered increased contrast. The black background also felt quite intimidating as the colour of the first article, so it was changed to a softer dark grey.
+**Alpha Legion** - dark blue/turquoise background and white text. The Alpha Legion traditionally use a lighter turquoise blue colour and silver edging, but this offered insufficient contrast. 
 
-White Scars- white background and red text. The White Scars tradtionally use a brighter red edging, but this offered insufficient contrast. 
+**Loyalist Legions**:
 
-Wolves of Fenris - dark grey background and bone-coloured text. The Wolves use a dark grey colour and bone-coloured edging, as well as bone charms attached to their armour. The bone colour is quite close to white, so there is good contrast.
+**Dark Angels** - dark grey background and white text. The Dark Angels tradtionally use a flat black colour with silver edging. This looked nice, but white text offered increased contrast. The black background also felt quite intimidating as the colour of the first article, so it was changed to a softer dark grey.
 
-Imperial Fists - bright yellow background and black text. I considered darkening off the yellow background, but this offered insufficient contrast with the black text. The overall effect is quite striking. 
+**White Scars** - white background and red text. The White Scars tradtionally use a brighter red edging, but this offered insufficient contrast. 
 
-Blood Angels - dark red background and white text. Initially, silver was used for the text, but this offered insufficient contrast as it is more of a light grey. Traditional black edging is used for the borders. 
+**Wolves of Fenris** - dark grey background and bone-coloured text. The Wolves use a dark grey colour and bone-coloured edging, as well as bone charms attached to their armour. The bone colour is quite close to white, so there is good contrast.
 
-Iron Hands - light grey background and black text. The Iron Hands traditionally use a dark steel grey, with details in black and white. A dark grey with white text scheme was used, but this offered insufficient contrast, so I decided on a light grey colour with black text. 
+**Imperial Fists** - bright yellow background and black text. I considered darkening off the yellow background, but this offered insufficient contrast with the black text. The overall effect is quite striking. 
 
-Ultramarines - dark blue background and gold text. This offers good contrast.
+**Blood Angels** - dark red background and white text. Initially, silver was used for the text, but this offered insufficient contrast as it is more of a light grey. Traditional black edging is used for the borders. 
 
-Salamanders - dark green background and yellow text. Initially, orange text was used to mimic the Salamanders flame decals, but this offered insufficient contrast, so it was changed to yellow.
+**Iron Hands** - light grey background and black text. The Iron Hands traditionally use a dark steel grey, with details in black and white. A dark grey with white text scheme was used, but this offered insufficient contrast, so I decided on a light grey colour with black text. 
 
-Raven Guard - black background and white text. As with the Dark Angels, this colour scheme could appear intimidating, but since this is the last article, I deemed this okay. It also matches the Raven Guard colour scheme perfectly. 
+**Ultramarines** - dark blue background and gold text. This offers good contrast.
+
+**Salamanders** - dark green background and yellow text. Initially, orange text was used to mimic the Salamanders flame decals, but this offered insufficient contrast, so it was changed to yellow.
+
+**Raven Guard** - black background and white text. As with the Dark Angels, this colour scheme could appear intimidating, but since this is the last article, I deemed this acceptable. It also matches the Raven Guard colour scheme perfectly. 
 
 ### **Image galleries**
 
@@ -550,56 +559,56 @@ I also have access to two iPad tablets. The deployed project works mostly as int
 
 ### **Testing code**
 
-#### HTML validation
+#### **HTML validation**
 
 Note: At the time of testing (28/02/2022), the W3C HTML validator was unavailable, with all attempts to access it resulting in a 503 error. A Slack post was made by Jim Morrell at 10.23AM on the 28th in the Announcements channel confirming this. As the submission deadline was approaching, I decided to use an alternative validation service - 
 [Free Formatter](https://www.freeformatter.com/html-validator.html). The results are recorded below:
 
-Index.html - No errors were found, the document is valid and conforms to best practices and standards.
+**Index.html** - No errors were found, the document is valid and conforms to best practices and standards.
 
-Traitors.html - Some errors were initially found, relating to misspelled attribute names and stray element tags. Other errors were found relating to overly long p elements that contained unordered lists. The unordered lists were removed from the p elements. Once these errors were cleaned up, the document was found to be valid and conforming to best practices and standards. 
+**Traitors.html** - Some errors were initially found, relating to misspelled attribute names and stray element tags. Other errors were found relating to overly long p elements that contained unordered lists. The unordered lists were removed from the p elements. Once these errors were cleaned up, the document was found to be valid and conforming to best practices and standards. 
 
-Loyalists.html - Again, some errors were initially found, relating to misspelled attribute names and stray element tags. Other errors were found relating to overly long p elements that contained unordered lists. The unordered lists were removed from the p elements. Once these errors were cleaned up, the document was found to be valid and conforming to best practices and standards.  
+**Loyalists.html** - Again, some errors were initially found, relating to misspelled attribute names and stray element tags. Other errors were found relating to overly long p elements that contained unordered lists. The unordered lists were removed from the p elements. Once these errors were cleaned up, the document was found to be valid and conforming to best practices and standards.  
 
-Contact.html - No errors were found, the document is valid and conforms to best practices and standards. 
+**Contact.html** - No errors were found, the document is valid and conforms to best practices and standards. 
 
 Addendum: the W3C HTML validator was found to be working on 01/03/2022, during final checking before submission. The results are below:
 
-Index.html - no errors or issues
+**Index.html** - no errors or issues
 
-Traitors.html - no errors or issues
+**Traitors.html** - no errors or issues
 
-Loyalists.html - no errors or issues
+**Loyalists.html** - no errors or issues
 
-Contact.html - no errors or issues
+**Contact.html** - no errors or issues
 
-#### Jigsaw CSS validator
+#### **Jigsaw CSS validator**
 
 Note: In contrast to the W3C HTML validator, the Jigsaw CSS validator was working at time of testing. The result is below:
 
 Styles.css - No errors were found, though 4 warnings were detected. Two related to the imported fonts, which are classed as imported style sheets due to the @import tag. The other two related to the break-word value applied to the style rules on lines 586 and 598, as the break-word value is deprecated. The [MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/word-break) on the word-break property lists word-break as a valid value, though Internet Explorer does not support it. The value was hence changed to normal, which showed no errors when tested using the preview browser. The validator showed no errors with this correction. 
 
-#### Lighthouse performance testing
+#### **Lighthouse performance testing**
 
-Index.html:
+**Index.html**:
 - Performance: 99%
 - Accessibility: 97%
 - Best Practices: 92%
 - SEO: 100%
 
-Traitors.html:
+**Traitors.html**:
 - Performance: 95%
 - Accessibility: 98%
 - Best Practices: 100%
 - SEO: 100%
 
-Loyalists.html:
+**Loyalists.html**:
 - Performance: 95%
 - Accessibility: 98%
 - Best Practices: 100%
 - SEO: 100%
 
-Contact.html:
+**Contact.html**:
 - Performance: 99%
 - Accessibility: 100%
 - Best Practices: 100%
@@ -611,7 +620,7 @@ The lower performance rating for the content pages is due to the size of the fil
 
 ### **Code**
 
-The code the social media icons and the accompanying CSS was taken from the Code Institute Love Running walkthrough project. 
+The code for the social media icons and the accompanying CSS was taken from the Code Institute Love Running walkthrough project. 
 
 ### **Inspiration**
 
@@ -700,6 +709,10 @@ Alan Bligh, John French, Andy Hoare, Neil Wylie, Anju Malhotra - A massive thank
 [This CSS Tricks article](https://css-tricks.com/couple-takes-sticky-footer/) was particularly helpful in making the footer stick the bottom of the page. 
 
 [This CSS Tricks article ](https://css-tricks.com/stripes-css/) and [this Youtube video](https://www.youtube.com/watch?v=4kWHW7da4U8) were used for instruction on how to apply hazard stripes to the Iron Warriors Legion Article quick facts and discussion text boxes. 
+
+[MDN Web Docs](https://developer.mozilla.org/en-US/) was used throughout the project's development to check valid CSS values and the correct use of HTML elements. 
+
+The [Am I Responsive](http://ami.responsivedesign.is/#) site was used to generate the previews of the site as it appears on multiple devices. 
 
 F.D. Bartholmew Boley - for his useful contributions to the development process. 
 
