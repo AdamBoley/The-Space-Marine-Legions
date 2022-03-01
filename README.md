@@ -16,6 +16,7 @@
     - [Header](#header)
     - [Footer](#footer)
     - [Unified Colour Scheme](#unified-colour-scheme)
+    - [Introductory text](#introductory-text)
     - [Internal Navigation](#internal-navigation)
     - [Legion Articles](#legion-articles)
         - [Quick Facts](#quick-facts)
@@ -30,6 +31,7 @@
     - [Colour Schemes](#colour-schemes)
     - [Image Galleries](#image-galleries-1)
 - [Accessibility](#accessibility)
+- [Code explanations](#code-explanations)
 - [Future Work](#future-work)
 - [Bugs](#bugs)
 - [Technologies](#technologies)
@@ -56,17 +58,17 @@
 
 I am a huge fan of the Warhammer 40,000 science-fiction setting. Warhammer 40k, as it is commonly known, is primarily a physical table-top game played with dice, painted miniatures and tape measures. It has existed in one form or another for about 40 years, and over that time, it has grown in many ways - playable armies, the range of miniatures, paints, and so on.
 
-Another way in which it has grown is the background information, referred to as the lore or, more affectionately, the 'fluff' (as opposed to the 'crunch' of the physical game rules).
+Another way in which it has grown is the background information, referred to as the lore or, more affectionately, the 'fluff' (as opposed to the hard 'crunch' of the physical game rules). Armies which are impractical to play but fun to build stories around are considered 'fluffy'.  
 
 Much of the story-telling revolves around the primary human civilisation of the setting, the Imperium of Mankind, a hyper-militant fascistic theocracy spanning a million worlds. The Imperium itself has existed for 10,000 years. It was founded in the 31st Millenium, called M31 in the parlance of the setting, and the current setting takes place in the 41st Millenium, or M41. 
 
-A long-running series of books, the Horus Heresy series, was started by Games Workshop's publishing house, Black Library, about 15 years ago, to explore the founding of the Imperium. The short version is this - the Imperium was founded by the Emperor of Mankind, who used genetically-enhanced warriors called Space Marines to conquer the Milky Way galaxy in a campaign called the Great Crusade. The Space Marines were organised into 18 Legions, each Legion having diverging doctrinally, organisationally and genetically. Each was led by a general - a genetically engineered being called a Primarch, who provided the genetic enhancements that created the Space Marines. 
+A long-running series of books, the Horus Heresy series, was started by Games Workshop's publishing house, Black Library, about 15 years ago, to explore the founding of the Imperium. The short version is this - the Imperium was founded by the Emperor of Mankind, who used genetically-enhanced warriors called Space Marines to conquer the Milky Way galaxy in a campaign called the Great Crusade. The Space Marines were organised into 18 Legions, each Legion being doctrinally, organisationally and genetically unique. Each was led by a general - a genetically engineered being called a Primarch, who provided the genetic enhancements that created the Space Marines. 
 
 As the Great Crusade drew to a close, the Emperor's most accomplished Primarch - Horus Lupercal of the 16th Legion - was named Warmaster, to direct the Great Crusade in the Emperor's stead. Some years later, after mysterious events on the moon of Davin, Horus betrayed the Imperium and the Emperor. He took fully half of the Space Marine Legions - his own 'Sons of Horus' and 8 others - into rebellion, and waged a campaign to topple the Emperor. Thus began the Horus Heresy. The other 9 Loyalist Legions opposed Horus, and wars of untold ferocity raged across human space. After years of hard fighting, Horus and his Traitor Legions arrived at Earth, the seat of the Emperor. 
 
 The Siege of Terra, as the final battle was called, was titanic in scale. Casualties of both sides were immense. At the climax of the battle, when all seemed lost, the Emperor himself took the field, launching a teleport strike on Horus' flagship, his aim a decapitation stike both metaphorical and literal. The Emperor and Horus battled hand-to-hand. Horus, a consumate warrior-king, inflicted grevious injuries on the Emperor, but the Emperor proved victorius. With Horus' death, and Loyalist reinforcements imminent, the Traitor Legions broke and ran. 
 
-The Space Marine Legions are interesting organisations. Each is very different. Their homeworlds, histories, Primarchs and genetics give rise to wildly varying cultures and combat doctrines. Some are savage berserkers, revelling in hand-to-hand combat. Others are more professional, excelling in modern combined-arms warfare. Others are stranger still, with focuses on armoured warfare, siege tactics, reconnaissance or infiltration. All have unique characters and histories. I personally am fascinated by the detailed backgrounds, organisations, doctrines and histories. 
+The Space Marine Legions are unique, interesting organisations. Each is very different. Their homeworlds, histories, Primarchs and genetics give rise to wildly varying cultures and combat doctrines. Some are savage berserkers, revelling in hand-to-hand combat. Others are more professional, excelling in modern combined-arms warfare. Others are stranger still, with focuses on armoured warfare, siege tactics, reconnaissance or infiltration. All have unique characters and histories. I personally am fascinated by the detailed backgrounds, organisations, doctrines and histories, and I have amassed a large body of knowledge about them. 
 
 ## **Scope**
 
@@ -92,11 +94,11 @@ The intended audience of this site are people who are already fans of the Warham
 
 ## **User Stories**
 
-Users should be able to easily determine the purpose of the site.
+Users should be able to easily determine the purpose of the site when they first come to it.
 
-Users should be able to easily navigate to the various pages of the site.
+Users should be able to easily navigate to the various pages of the site with no prior experience.
 
-Users should be able to easily navigate within the content pages.
+Users should be able to easily navigate within the content pages with no prior experience.
 
 ## **Wireframes**
 
@@ -187,6 +189,16 @@ See below for a screenshot highlighting the unified colour scheme:
 
 ![Unified colour scheme](assets/images/screenshots/unified-colour-scheme-screenshot.PNG)
 
+### **Introductory text**
+
+The Index page and two content pages each contain a coloured text box with some introductory text. These have been deliberated place to the right-hand-side of the screen when viewed on a desktop or laptop monitor, according to User Design principles that state that a user begins viewing the page from the top-right, reading across. These bold colours and contrasting borders are designed to immediately grab the user's attention. The text boxes have been placed to compliment the background images, which are discussed below. 
+
+The introductory text boxes for the content pages also contain the internal navigation for that page, which is placed directly below the text, so that the user can immediately jump into viewing the content. 
+
+See below for a screenshot of the introductory text of the index page:
+
+![index introduction](assets/images/screenshots/index-introduction-screenshot.PNG)
+
 ### **Internal Navigation**
 
 The two content pages contain a considerable amount of internal navigation. The idea behind this is to give the user navigational options when using the site, and to save them having to scroll through the entire page, which ended up being quite long. Scrolling through the entire page takes a long time. From the top of each content page, users can jump directly to each Legion article. At the top of each Legion article, either side of the heading, are icons that jump to the last and next Legion article, and at the bottom of each article is an icon that jumps to the next article. At the bottom of the last article are two icons. The single up arrow jumps to the previous article, and the double up arrow jumps to the introductory text. This allows the user to navigate a long page with only a few clicks or taps and a mimimum of scrolling. The arrow icons are not labelled, and the direction in which they point should provide suitable visual cues to users. 
@@ -238,7 +250,6 @@ See below for a screnshot of the preview image gallery and the full image galler
 ![Iron Warriors preview gallery](assets/images/screenshots/preview-gallery-screenshot.PNG)
 
 ![Iron Warriors image gallery](assets/images/screenshots/image-gallery-screenshot.PNG)
-
 
 ### Contact form
 
@@ -353,6 +364,10 @@ A small bug was noted early in development - When navigating to the traitor.html
 When adding the images, it was noted that not all of the images are of the same dimensions. This is probably due to the images being acquired from different sources. Broadly speaking, the images of legionaries come in two different sizes - roughly 120px wide by 200px high, and 135px wide by 200px high, with a pixel or two difference. When viewed in the image galleries, this was jarring. This was eventually solved by cutting down the number of images and only using those of a consistent height and width, and possessing a white background. 
 
 The commits made from the 12th of February to the 19th of February may be confusing, as I was constantly adding and removing images. Those that were removed were considered unsuitable. Hence, the flow of the project's development may appear disrupted around this point, though I was working around variable image qualities and a lot of a consideration about what images were suitable was needed. 
+
+## **Code explanations**
+
+The ID names and class names applied to the elements in the code of this project should be self-explanatory. However, the images in the main image galleries of each Legion article are each contained within a div element with a class of "image-container-white". The reason for this is that I originally used images that I categorised into two groups - ones with white backgrounds and ones with beige/white backgrounds. The white background images were placed in div elements with a class name of "image-container-white" whilst the other group of images were placed in div elements with a class name of "image-container", as these were the images initially found and used. The two different class names were used because I was playing around with modifying the heights and widths of the images. I eventually settled on just using the images with white backgrounds with no height/width modifications, and by that time, I had already written the code to display the images, and considered that changing the class names would be laborious. The same logic applies to the "white-backgrounds" folder in assets/images - changing the file paths of each image was considered laborious. 
 
 ## **Future work**
 
