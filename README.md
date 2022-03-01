@@ -1,22 +1,39 @@
+![Index page screenshot](assets/images/screenshots/index-screenshot.PNG)
+
 # The Space Marine Legions
 
 # Code Institute Portfolio Project 1: User-centric Front-end Development using HTML and CSS
 
 # Table of Contents
 
-1. [Background](#background)
-2. [Scope](#scope)
-3. [Audience](#audience)
-3. [Function](#function)
-4. [User Stories](#user-stories)
-5. [Wireframes](#wireframes)
-6. [Features](#features)
-7. [Design Choices](#design-choices)
-8. [Accessibility](#accessibility)
-9. [Future Work](#future-work)
-10. [Bugs](#bugs)
-12. [Technologies](#technologies)
-13. [Deployment](#deployment)
+- [Background](#background)
+- [Scope](#scope)
+- [Audience](#audience) 
+- [User Stories](#user-stories)
+- [Wireframes](#wireframes)
+- [Function](#function)
+- [Features](#features)
+    - [Header](#header)
+    - [Footer](#footer)
+    - [Unified Colour Scheme](#unified-colour-scheme)
+    - [Internal Navigation](#internal-navigation)
+    - [Legion Articles](#legion-articles)
+        - [Quick Facts](#quick-facts)
+        - [Discussion - history](#discussion---history)
+        - [Discussion - observations](#discussion---observations)
+    - [Image Galleries](#image-galleries)
+    - [Contact Form](#contact-form)
+    - [Accessibility](#accessibility)
+- [Design Choices](#design-choices)
+    - [Font](#font)
+    - [Background Images](#background-images)
+    - [Colour Schemes](#colour-schemes)
+    - [Image Galleries](#image-galleries-1)
+- [Accessibility](#accessibility)
+- [Future Work](#future-work)
+- [Bugs](#bugs)
+- [Technologies](#technologies)
+- [Deployment](#deployment)
     - [How this project was deployed](#how-this-project-was-deployed)
     - [How other users can work on this project](#how-other-users-can-work-on-this-project)
         - [Direct access](#direct-access)
@@ -24,12 +41,13 @@
         - [Local clone](#local-clone)
         - [Collaboration](#collaboration)
         - [Development preview browser](#development-preview-browser)
-13. [Testing](#testing)
+- [Testing](#testing)
     - [Testing User Stories](#testing-user-stories)
     - [Testing Functionality](#testing-functionality)
     - [Testing on different devices](#testing-on-different-devices)
     - [Testing code](#testing-code)
-14. [Credits](#credits)
+- [Credits](#credits)
+    - [Code](#code)
     - [Inspiration](#inspiration)
     - [Images](#images)
     - [Acknowledgements](#acknowledgements)
@@ -72,23 +90,13 @@ The contact page is intended as a contact form, a way for users to get in touch 
 
 The intended audience of this site are people who are already fans of the Warhammer 40k setting and who already have some knowledge of the setting's background information, but who have little knowledge of the finer details of the Space Marine Legions. This is deliberate - the setting is so complex that introducing a new person and getting them up to speed is considered a difficult task among existing fans. Adding sufficient content to the site to introduce a new person would make the site unwieldy and overlong, and that would be before any of the intended content could be added. The idea is for this site to be passed around existing fans in order to pass on knowledge that makes the setting even richer and more detailed. A page for the introduction of new people to the setting could be considered a future addition to the site. 
 
-## **Function**
-
-The index.html page is intended as the landing page. The page presents two calls to action - one to visit each of the two content pages. 
-
-The traitors.html page is the page discussing Horus' Traitor Legions
-
-The loyalists.html page is the page discussing the Imperium's Loyalist Legions
-
-The contact.html page contains a contact form. As a working contact form is outside of the scope of the project and beyond my skills, it will merely submit the entered information to https://formdump.codeinstitute.net
-
 ## **User Stories**
 
-Users should be able to easily determine the purpose of the site
+Users should be able to easily determine the purpose of the site.
 
-Users should be able to easily navigate to the various pages of the site
+Users should be able to easily navigate to the various pages of the site.
 
-Users should be able to easily navigate within the content pages
+Users should be able to easily navigate within the content pages.
 
 ## **Wireframes**
 
@@ -128,17 +136,46 @@ The wireframe for the traitor and loyalist pages with the content scrolled up to
 Contact page:<br>
 ![Contact](assets/wireframes/final/contact-v2.png)
 
+## **Function**
+
+The index.html page is intended as the landing page. The page presents two calls to action in the form of buttons - one to visit the Traitor Legions page, and the other to explore the Loyalist Legions page. 
+
+The traitors.html page is the page discussing Horus' Traitor Legions. 
+
+The loyalists.html page is the page discussing the Imperium's Loyalist Legions. 
+
+The main content of both the traitors.html and loyalists.html pages are the Legion articles, each contained within an article element. 
+
+The contact.html page contains a contact form. As a working contact form is outside of the scope of the project and beyond my skills, it will merely submit the entered information to https://formdump.codeinstitute.net. Further development of the contact form is considered a worthy future goal. 
+
+See below for screenshots of the final pages:
+
+![index](assets/images/screenshots/index-screenshot.PNG)
+
+![traitors](assets/images/screenshots/traitor-screenshot.PNG)
+
+![loyalists](assets/images/screenshots/loyalist-screenshot.PNG)
+
+![contact](assets/images/screenshots/contact-screenshot.PNG)
+
 ## **Features**
 
 ### **Header** 
 
-Each of the four pages features a header. The header is marked out by a 50% transparent black background, which manifests as a dark strip. The header follows expected design 
-convention, with a title on the left that can be clicked to return to the homepage, and a navigation bar on the right that users may used to navigate to each of the pages.
+Each of the four pages features a header. The header is marked out by a 50% transparent black background, which manifests as a dark strip that provides good contrast with the heading and navigation bar, but also allows the user to see the top of the background image. The header follows expected design convention, with a title on the left that can be clicked to return to the homepage, and a navigation bar on the right that users may used to navigate to each of the pages.
 The consistent, simple and intuitive nature of the header allows the user to trust the site. 
+
+See below for a screenshot of the header, in this case from the loyalists.html: page
+
+![Loyalist header](assets/images/screenshots/header-screenshot.PNG)
 
 ### **Footer**
 
 Each of the four pages features a footer. The footer is marked out by a thin dark grey stripe of 70% transparency. The footer contains copyright information (me, 2022), the hosting service (Github pages) and social media links. The text is small, and the idea is for the footer not to draw much attention, as the copyright and hosting service are not material to the user's experience. However, the icons, though small, are recognisable as the logos of popular social media services and their white colour contrasts well with the dark grey transparency of the footer, so the user shouldn't overlook or miss them. 
+
+See below for a screenshot of the footer:
+
+![Footer](assets/images/screenshots/footer-screenshot.PNG)
 
 ### **Unified colour scheme**
 
@@ -146,29 +183,70 @@ Each page of the site, beyond the homepage, was given a colour - red for the Tra
 
 Likewise, the Contact Me call to action at the bottom of each content page is given the same blue colour as the Contact me button in the navigation bar. Again, this allows the user to be confident that both buttons link to the same page. 
 
+See below for a screenshot highlighting the unified colour scheme:
+
+![Unified colour scheme](assets/images/screenshots/unified-colour-scheme-screenshot.PNG)
+
 ### **Internal Navigation**
 
-The two content pages contain a considerable amount of internal navigation. The idea behind this is to give the user options when using the site, and to save them having to scroll through the entire page, which ended up being quite long. From the top of each content page, users can jump directly to each Legion article. At the top of each Legion article, either side of the heading, are icons that jump to the last and next Legion article, and at the bottom of each article is an icon that jumps to the next article. At the bottom of the last article are two icons. The single up arrow jumps to the previous article, and the double up arrow jumps to the introductory text. This allows the user to navigate a long page with only a few clicks or taps and a mimimum of scrolling. 
+The two content pages contain a considerable amount of internal navigation. The idea behind this is to give the user navigational options when using the site, and to save them having to scroll through the entire page, which ended up being quite long. Scrolling through the entire page takes a long time. From the top of each content page, users can jump directly to each Legion article. At the top of each Legion article, either side of the heading, are icons that jump to the last and next Legion article, and at the bottom of each article is an icon that jumps to the next article. At the bottom of the last article are two icons. The single up arrow jumps to the previous article, and the double up arrow jumps to the introductory text. This allows the user to navigate a long page with only a few clicks or taps and a mimimum of scrolling. The arrow icons are not labelled, and the direction in which they point should provide suitable visual cues to users. 
 
-At the bottom of each contact page is a call to action to go to the contact page, with a request for collaboration or merely to start a conversation with me, a fellow Warhammer fan. 
+At the bottom of each contact page is a call to action to go to the contact page, with a request for collaboration or merely to start a conversation with me, a fellow Warhammer fan.
+
+See below for a screenshot of the internal navigation for the Traitor Legions:
+
+![Traitors Internal Navigation](assets/images/screenshots/internal-navigation-screenshot.PNG)
 
 ### **Legion Articles**
 
-The main content of the site are the 18 Legion Articles, each covering one of the 18 Space Marine Legions. The Traitor Legion page contains the 9 Traitor Legions, and the Loyalist Legion page contains the 9 Loyalist Legions. Each Legion article is given a different colour scheme (discussed below), corresponding to the common colour scheme of their armour. Each Legion Article contains 5 elements - a quick facts text box, a preview image gallery, two discussion text boxes and a main image gallery. 
+The main content of the site are the 18 Legion Articles, each covering one of the 18 Space Marine Legions. The Traitor Legion page contains 9 Legion articles, 1 for each of the 9 Traitor Legions, and the Loyalist Legion page contains another 9 Legion articles, 1 for each of the Loyalist Legions. Each Legion article is given a different colour scheme (discussed below), corresponding to the common colour scheme of their armour. Each Legion Article contains 5 elements - a quick facts text box, a preview image gallery, two discussion text boxes and a main image gallery. The image galleries are discussed below.
 
-The quick facts text box lists a handful of short facts about each Legion, where that information is available. Though considerably more of these quick facts exist for each Legion, the same quick facts are not available for all of the Legions, and so they were restricted to those available for all Legions, to provide a unity of display, and to reassure users that all of the content is loading properly. This is because if one particular Legion had more quick facts than another, a user might reasonable suspect that their device was not rendering all of the content properly, which may breed distrust with the site.
+See below for a zoomed out screenshot of the Iron Warriors Legion article. Zooming out was necessary to obtain the screenshot as the Legion article overflows the page:
 
-The discussion text boxes contain the main information about the Legion under discussion. The first discussion box deals with the history of the Legion, such as previous battles, their recruitment and any other pertinent historical information, and as such is written in the past tense. The second discussion box deals with the current observations of the Legion, such as doctrine, unique units, strengths and so on, and as such is written in the present tense. 
+![Legion Article](assets/images/screenshots/legion-article-screenshot.PNG)
 
-The image galleries are discussed directly below. 
+#### **Quick Facts**
+
+The Quick Facts text box lists a handful of short facts about each Legion, where that information is available. Though considerably more of these quick facts exist for each Legion, the same quick facts are not available for all of the Legions, and so they were restricted to those available for all Legions, to provide a unity of display, and to reassure users that all of the content is loading properly. This is because if one particular Legion had more quick facts than another, a user might reasonable suspect that their device was not rendering all of the content properly, which may breed distrust with the site. Those quick facts listed are the Legion's name, number, Primarch, bodyguard formation, homeworld, flagship, organisational model and numerical strength.
+
+See below for a screenshot of the Quick Facts text box from the Iron Warriors Legion article:
+
+![Iron Warriors Quick Facts](assets/images/screenshots/quick-facts-screenshot.PNG)
+
+#### **Discussion - History**
+
+The discussion text boxes contain the main information about the Legion under discussion. The first discussion box deals with the history of the Legion, such as previous battles, their recruitment and any other pertinent historical information, and as such is written in the past tense.
+
+See below for a screenshot of the history text box from the Iron Warriors Legion article:
+
+![Iron Warriors History](assets/images/screenshots/discussion-history-screenshot.PNG)
+
+#### **Discussion - Observations**
+
+The second discussion text box deals with the current observations of the Legion, such as doctrine, organisational model, unique units, strengths and so on, and as such is written in the present tense.  
+
+See below for a screenshot of the observations text box from the Iron Warriors Legion article:
+
+![Iron Warriors Observations](assets/images/screenshots/discussion-observations-screenshot.PNG)
 
 ### **Image Galleries** 
 
 The site as a whole contains a great many images of legionaries of the Space Marine Legions. This is intentional, as within the Warhammer community, the artwork is considered an important aspect. As a result, a considerable effort was put into finding as many appropriate images for the project as possible. Each Legion Article contains two image galleries - a preview image gallery placed next to the quick facts, and a main image gallery placed underneath the discussion text boxes. The preview gallery always contains three images where possible, and is intended to act as an initial showcase for the user, visually informing the user of the Legion's colour scheme. The main image gallery contains all of the images I was able to source, excluding those deemed inapproproiate (discussed below), with each image being given a short description, pointing out notable features of the legionary in the image.   
 
+See below for a screnshot of the preview image gallery and the full image gallery from the Iron Warriors Legion article:
+
+![Iron Warriors preview gallery](assets/images/screenshots/preview-gallery-screenshot.PNG)
+
+![Iron Warriors image gallery](assets/images/screenshots/image-gallery-screenshot.PNG)
+
+
 ### Contact form
 
 The main feature of the Contact page is the contact form. As noted in the code in a comment, the form is non-functional, as a working form is currently beyond my skill-set, and the scope of this project. The purpose is twofold - to invite collaboration from users who wish to help me expand or refine the content of the site, and to act as an invitation to begin a conversation about any and all aspects of Warhammer. Since the community tends to be small and insular, setting up dialogues could lead to the formation or expansion of gaming groups or discussion forums. 
+
+See below for a screenshot of the contact form:
+
+![Contact form](assets/images/screenshots/contact-form-screenshot.PNG)
 
 ### **Accessibility**
 
@@ -177,6 +255,10 @@ I have taken pains to ensure that all images have either an aria-label or aria-l
 During development, I came across the alternative aria-describedby attribute, which appears to be intended for longer descriptions than aria-labelledby. However, the Code Institute course material I have covered so far has only mentioned aria-label and aria-labelledby, and I am aware that screen-readers and other assistive technologies place a higher priority on aria-labelledby over aria-label. I was unable to find anything related to the priority placed on aria-describedby, so I made the decision to stick with aria-labelledby, even though I am reasonably sure that the text in the main image galleries rises to the level of a descriptions. My mentor agreed with this decision.  
 
 Those images that only exist in the preview gallery have been given an aria-label attribute, as it did not make sense to have image descriptions in the preview gallery when, in many cases, they would be duplicated in the full image gallery. 
+
+See below for a screenshot of the project on multiple devices, obtained from [Am I Responsive?](http://ami.responsivedesign.is/#):
+
+![Devices screenshot](assets/images/screenshots/devices-screenshot.PNG)
 
 ## **Design Choices**
 
@@ -466,11 +548,21 @@ Loyalists.html - Again, some errors were initially found, relating to misspelled
 
 Contact.html - No errors were found, the document is valid and conforms to best practices and standards. 
 
+Addendum: the W3C HTML validator was found to be working on 01/03/2022, during final checking before submission. The results are below:
+
+Index.html - no errors or issues
+
+Traitors.html - no errors or issues
+
+Loyalists.html - no errors or issues
+
+Contact.html - no errors or issues
+
 #### Jigsaw CSS validator
 
 Note: In contrast to the W3C HTML validator, the Jigsaw CSS validator was working at time of testing. The result is below:
 
-Styles.css - No errors were found, though 4 warnings were detected. Two related to the imported fonts, which are classed as imported style sheets due to the @import tag. The other two related to the break-word value applied to the style rules on lines 586 and 598, as the break-word value is deprecated. The [MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/word-break) on the word-break property lists word-break as a valid value, though Internet Explorer does not support it. The value was hence changed to normal, which showed no errors when tested using the preview browser. The validator showed no errors with thos correction. 
+Styles.css - No errors were found, though 4 warnings were detected. Two related to the imported fonts, which are classed as imported style sheets due to the @import tag. The other two related to the break-word value applied to the style rules on lines 586 and 598, as the break-word value is deprecated. The [MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/word-break) on the word-break property lists word-break as a valid value, though Internet Explorer does not support it. The value was hence changed to normal, which showed no errors when tested using the preview browser. The validator showed no errors with this correction. 
 
 #### Lighthouse performance testing
 
@@ -498,8 +590,13 @@ Contact.html:
 - Best Practices: 100%
 - SEO: 100%
 
+The lower performance rating for the content pages is due to the size of the files and the large number of images contained therein. 
 
 ## **Credits**
+
+### **Code**
+
+The code the social media icons and the accompanying CSS was taken from the Code Institute Love Running walkthrough project. 
 
 ### **Inspiration**
 

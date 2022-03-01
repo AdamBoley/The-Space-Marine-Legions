@@ -119,6 +119,9 @@ footer div span {
     margin: 0 100px;
 }
 
+/*Below are the CSS rule relating the social media icons in the footers of each page. These have been taken from the Code Institute Love Running Walkthrough project, 
+and modified to suit my purposes*/
+
 .social-media {
     height: 1rem;
 }
